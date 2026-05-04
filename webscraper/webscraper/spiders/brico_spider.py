@@ -1,4 +1,5 @@
 import scrapy
+from webscraper.items import CategorieItem
 
 
 class BricoSpiderSpider(scrapy.Spider):
@@ -11,17 +12,17 @@ class BricoSpiderSpider(scrapy.Spider):
         categories = response.css('a[id^="category-"]')
 
         for cat in categories:
-            nom_cat = cat.css('::text').get().strip()
-            lien_cat = cat.css('::attr(href)').get()
+            name_cat = cat.css('::text').get().strip()
+            url_cat = cat.css('::attr(href)').get()
             id_cat = cat.css('::attr(id)').get()
 
-            
-            print(f"Catégorie trouvée : {id_cat} : {nom_cat} --> {lien_cat}")
-            print("-" * 50)
-
-           
-        nombre_total = len(categories)
-        print(f"Nombre total : {nombre_total}")
+            item = CategorieItem()
+            item["name_cat"] = name_cat
+            item["url_cat"] = url_cat
+            item["id_cat"] = id_cat
+                    
+            yield item
+   
            
            
            

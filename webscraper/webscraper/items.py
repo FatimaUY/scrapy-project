@@ -5,8 +5,7 @@
 
 import scrapy
 
-
-class WebscraperItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class CategorieItem(scrapy.Item):
+    id_cat = scrapy.Field()
+    name_cat = scrapy.Field()
+    url_cat = scrapy.Field()
