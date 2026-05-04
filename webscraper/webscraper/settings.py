@@ -14,6 +14,13 @@ NEWSPIDER_MODULE = "webscraper.spiders"
 
 ADDONS = {}
 
+FEEDS = {
+    'categories.csv': {
+        'format': 'csv',
+        'encoding': 'utf8',
+        'overwrite': True,
+    },
+}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "webscraper (+http://www.yourdomain.com)"
