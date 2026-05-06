@@ -186,23 +186,3 @@ scrapy crawl product_spider
 
 ---
 
-## 📋 Logs
-
-Stored in:
-
-```
-logs/scraping/
-brico_spider/
-product_spider/
-```
-
----
-
-## 🧠 Design Notes
-
-- ETL-style architecture (Extract → Transform → Load)
-- SQLite used for relational integrity
-- Modular spider design
-- Scalable for other e-commerce sites
-
----
