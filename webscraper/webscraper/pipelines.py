@@ -41,33 +41,28 @@ class DataCleaningPipeline:
         if not price_str:
             return None
 
-        # Supprimer les caractères non numériques sauf . et ,
-        cleaned = re.sub(r'[^\d.,]', '', str(price_str))
-        #Nettoyage
-        if adapter.get("name_cat"):
-            adapter["name_cat"] = adapter["name_cat"].strip()
-            adapter["name_cat"] = adapter["name_cat"].replace(",", " - ")
-            adapter["name_cat"] = adapter["name_cat"].replace('"', "")
-
-
-        if isinstance(item, CategorieItem):
-            if not item["url_cat"].startswith("https://"):
-                raise DropItem(f"URL invalide: {item['url_cat']}")
-
-        if "price_product" in item:
-            item["price_product"] = self._clean_price(item.get("price_product"))
-
-        # Remplacer la virgule par point pour la conversion
-        cleaned = cleaned.replace(',', '.')
-
-        # Extraire le premier nombre trouvé (correction pour virgule)
-        match = re.search(r'\d+\.?\d*', cleaned)
-        if match:
+        # Nettoyage pour le format Centrale Brico
+        cleaned = str(price_str).strip()
+        
+        # Format "49€27" → "49.27"
+        cleaned = cleaned.replace("€", ".")
+        
+        # Supprime tout sauf chiffres, virgule et point
+        cleaned = re.sub(r"[^\d,.]", "", cleaned)
+        
+        # Virgule décimale française → point
+        cleaned = cleaned.replace(",", ".")
+        
+        # Supprime doubles points et point final résiduel
+        cleaned = re.sub(r"\.{2,}", ".", cleaned)
+        cleaned = cleaned.rstrip(".")
+        
+        if cleaned:
             try:
-                return float(match.group())
+                return float(cleaned)
             except ValueError:
                 return None
-
+        
         return None
  
     def clean_url(self, url):
@@ -132,15 +127,15 @@ class DuplicateRemovalPipeline:
         adapter = ItemAdapter(item)
  
         # Vérifier les doublons de catégories
-        if 'id_cat' in adapter:
+        if 'name_cat' in adapter and 'id_cat' in adapter:
             cat_id = adapter['id_cat']
             if cat_id in self.seen_categories:
                 spider.logger.info(f"Catégorie en double ignorée: {adapter.get('name_cat', 'Unknown')}")
                 raise DropItem(f"Catégorie en double: {cat_id}")
             self.seen_categories.add(cat_id)
- 
+        
         # Vérifier les doublons de produits
-        if 'id_product' in adapter:
+        if 'name_product' in adapter and 'id_product' in adapter:
             product_id = adapter['id_product']
             if product_id in self.seen_products:
                 spider.logger.info(f"Produit en double ignoré: {adapter.get('name_product', 'Unknown')}")

@@ -128,8 +128,8 @@ class ProductSpider(scrapy.Spider):
         yield ProductItem(
             id_product    = product_id,
             name_product  = (product_name or "").strip(),
-            price_product = price_text or None,
+            price         = price_text or None,
             url_product   = product_url,
-            cat_product   = category,
+            category_name = category,
             id_cat        = id_cat,
         )
