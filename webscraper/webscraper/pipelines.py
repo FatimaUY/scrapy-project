@@ -40,18 +40,21 @@ class DataCleaningPipeline:
         """Nettoyer et normaliser les prix"""
         if not price_str:
             return None
- 
+
         # Supprimer les caractères non numériques sauf . et ,
         cleaned = re.sub(r'[^\d.,]', '', str(price_str))
- 
+
         # Remplacer la virgule par point pour la conversion
         cleaned = cleaned.replace(',', '.')
- 
-        # Extraire le premier nombre trouvé
+
+        # Extraire le premier nombre trouvé (correction pour virgule)
         match = re.search(r'\d+\.?\d*', cleaned)
         if match:
-            return float(match.group())
- 
+            try:
+                return float(match.group())
+            except ValueError:
+                return None
+
         return None
  
     def clean_url(self, url):
@@ -186,17 +189,19 @@ class DatabasePipeline:
             )
         ''')
  
-        # Table des produits
+        # Table des produits avec clé étrangère vers categories
         self.cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS {self.sqlite_table_products} (
                 id_product TEXT PRIMARY KEY,
                 name_product TEXT NOT NULL,
                 price REAL NOT NULL,
                 url_product TEXT NOT NULL,
+                id_cat TEXT NOT NULL,
                 category_name TEXT NOT NULL,
                 category_url TEXT,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY (id_cat) REFERENCES {self.sqlite_table_categories} (id_cat)
             )
         ''')
  
@@ -225,13 +230,14 @@ class DatabasePipeline:
             if 'name_product' in adapter:
                 self.cursor.execute(f'''
                     INSERT OR REPLACE INTO {self.sqlite_table_products} 
-                    (id_product, name_product, price, url_product, category_name, category_url, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                    (id_product, name_product, price, url_product, id_cat, category_name, category_url, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                 ''', (
                     adapter.get('id_product'),
                     adapter.get('name_product'),
                     adapter.get('price'),
                     adapter.get('url_product'),
+                    adapter.get('id_cat'),  # Ajout de la clé étrangère
                     adapter.get('category_name'),
                     adapter.get('category_url')
                 ))
