@@ -34,23 +34,3 @@ class WebscraperPipeline:
 
         return item
     
-    def process_product(self, item, spider):
-        
-        adapter = ItemAdapter(item)
-
-        #Nettoyage
-        if adapter.get("name_cat"):
-            adapter["name_cat"] = adapter["name_cat"].strip()
-            adapter["name_cat"] = adapter["name_cat"].replace(",", " - ")
-            adapter["name_cat"] = adapter["name_cat"].replace('"', "")
-
-        if adapter.get("url_product"):
-            adapter["url_product"] = adapter["url_product"].strip()
-
-
-        #Validation
-        if not item["url_product"].startswith("https://"):
-            raise DropItem(f"URL invalide: {item['url_product']}")
-
-
-        return item
