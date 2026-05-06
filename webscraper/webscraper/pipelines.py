@@ -8,6 +8,7 @@
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
 from webscraper.items import CategorieItem, ProductItem
+import re
 
 class WebscraperPipeline:
     def process_item(self, item, spider):
@@ -23,6 +24,8 @@ class WebscraperPipeline:
         if adapter.get("url_cat"):
             adapter["url_cat"] = adapter["url_cat"].strip()
 
+        if "price_product" in item:
+            item["price_product"] = self._clean_price(item.get("price_product"))
 
         #Validation
         if isinstance(item, ProductItem):
@@ -34,3 +37,26 @@ class WebscraperPipeline:
 
         return item
     
+    @staticmethod
+    def _clean_price(raw: str) -> str | None:
+        """
+        Normalise une chaîne de prix issue de Centrale Brico.
+
+        Formats gérés :
+          "24€12"   → "24.12"   (€ = séparateur décimal)
+          "24,12 €" → "24.12"   (format français standard)
+          "24.12"   → "24.12"   (déjà normalisé)
+        """
+        if not raw:
+            return None
+        cleaned = raw.strip()
+        # ① "24€12" → le € est le séparateur décimal
+        cleaned = cleaned.replace("€", ".")
+        # ② Supprime tout sauf chiffres, virgule et point
+        cleaned = re.sub(r"[^\d,.]", "", cleaned)
+        # ③ Virgule décimale française → point
+        cleaned = cleaned.replace(",", ".")
+        # ④ Supprime doubles points et point final résiduel
+        cleaned = re.sub(r"\.{2,}", ".", cleaned)
+        cleaned = cleaned.rstrip(".")
+        return cleaned if cleaned else None

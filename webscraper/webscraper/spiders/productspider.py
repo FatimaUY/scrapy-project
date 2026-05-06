@@ -92,7 +92,7 @@ class ProductSpider(scrapy.Spider):
         price_node = card.css(".product-price-and-shipping > span")
         price_text = "".join(price_node.css("::text").getall()).strip() if price_node else None
 
-        price = self._clean_price(price_text) if price_text else None
+        price = price_text.strip() if price_text else None
 
         yield ProductItem(
             id_product    = product_id,
@@ -102,14 +102,3 @@ class ProductSpider(scrapy.Spider):
             cat_product   = category,
         )
 
-    @staticmethod
-    def _clean_price(raw: str) -> str | None:
-        if not raw:
-            return None
-        cleaned = raw.strip()
-        cleaned = cleaned.replace("\u20ac", ".")
-        cleaned = re.sub(r"[^\d,.]", "", cleaned)
-        cleaned = cleaned.replace(",", ".")
-        cleaned = re.sub(r"\.{2,}", ".", cleaned)
-        cleaned = cleaned.rstrip(".")
-        return cleaned if cleaned else None
