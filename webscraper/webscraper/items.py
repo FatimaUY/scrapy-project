@@ -20,6 +20,4 @@ class ProductItem(scrapy.Item):
     url_product = scrapy.Field()
     category_name = scrapy.Field()
     category_url = scrapy.Field()
-    id_cat = scrapy.Field()
-    cat_product = scrapy.Field()    
     id_cat = scrapy.Field() 
