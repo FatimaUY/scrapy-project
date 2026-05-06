@@ -21,8 +21,10 @@ class WebscraperPipeline:
             adapter["name_cat"] = adapter["name_cat"].replace(",", " - ")
             adapter["name_cat"] = adapter["name_cat"].replace('"', "")
 
-        if adapter.get("url_cat"):
-            adapter["url_cat"] = adapter["url_cat"].strip()
+
+        if isinstance(item, CategorieItem):
+            if not item["url_cat"].startswith("https://"):
+                raise DropItem(f"URL invalide: {item['url_cat']}")
 
         if "price_product" in item:
             item["price_product"] = self._clean_price(item.get("price_product"))

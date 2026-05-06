@@ -1,0 +1,4573 @@
+[
+{
+  "name_cat": "Electroportatif",
+  "url_cat": "https://www.centrale-brico.com/electroportatif",
+  "id_cat": "category-5020",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Autre outil électroportatif",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif",
+  "id_cat": "category-5021",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Machine multifonction",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/machine-multifonction",
+  "id_cat": "category-1566",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Rabot",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/rabot",
+  "id_cat": "category-1563",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Défonceuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/defonceuse",
+  "id_cat": "category-1564",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Mélangeur-Turbine",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/melangeur-turbine",
+  "id_cat": "category-1565",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Pistolet à peinture",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/pistolet-a-peinture",
+  "id_cat": "category-1567",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Découpeur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/decoupeur",
+  "id_cat": "category-1568",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Décapeur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/decapeur",
+  "id_cat": "category-1569",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Décolleuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/decolleuse",
+  "id_cat": "category-1570",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Aspirateur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/aspirateur",
+  "id_cat": "category-1571",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Spatule",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/spatule",
+  "id_cat": "category-1572",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Fraise à lamelle",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/fraise-a-lamelle",
+  "id_cat": "category-1573",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Rainureuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/rainureuse",
+  "id_cat": "category-1574",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Chargeur-Batterie",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif/chargeur-batterie",
+  "id_cat": "category-1575",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/autre-outil-electroportatif"
+},
+{
+  "name_cat": "Equipement stationnaire",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire",
+  "id_cat": "category-5022",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Accessoires compresseur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/accessoires-compresseur",
+  "id_cat": "category-1584",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Machine à bois",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/machine-a-bois",
+  "id_cat": "category-1703",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Coupe carrelage",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/coupe-carrelage",
+  "id_cat": "category-1576",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Tour-Touret- Rabot",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/tour-touret--rabot",
+  "id_cat": "category-1577",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Perceuse à colonne",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/perceuse-a-colonne",
+  "id_cat": "category-1578",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Groupe d'aspiration",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/groupe-d-aspiration",
+  "id_cat": "category-1579",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Scie stationnaire",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/scie-stationnaire",
+  "id_cat": "category-1580",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Ponceuse-Fraiseuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/ponceuse-fraiseuse",
+  "id_cat": "category-1581",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Groupe électrogène",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/groupe-electrogene",
+  "id_cat": "category-203",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Compresseur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/compresseur",
+  "id_cat": "category-1583",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Bétonnière",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire/betonniere",
+  "id_cat": "category-5304",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/equipement-stationnaire"
+},
+{
+  "name_cat": "Maxicraft-Dremel",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel",
+  "id_cat": "category-5023",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Outillage à main de précision",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/outillage-a-main-de-precision",
+  "id_cat": "category-1590",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Tréfilerie",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/trefilerie",
+  "id_cat": "category-1592",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Machine et accessoires",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/machine-et-accessoires",
+  "id_cat": "category-1585",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Gravure-Pyrogravure",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/gravure-pyrogravure",
+  "id_cat": "category-1586",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Soudure",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/soudure",
+  "id_cat": "category-1587",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Aérographie",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/aerographie",
+  "id_cat": "category-1588",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Outils pour perceuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/outils-pour-perceuse",
+  "id_cat": "category-1589",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Balsa-Contreplaqué",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel/balsa-contreplaque",
+  "id_cat": "category-1591",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/maxicraft-dremel"
+},
+{
+  "name_cat": "Perceuse-Visseuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse",
+  "id_cat": "category-5024",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Perforateur",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/perforateur",
+  "id_cat": "category-1548",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Perceuse-Visseuse sans fil",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/perceuse-visseuse-sans-fil",
+  "id_cat": "category-1544",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Visseuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/visseuse",
+  "id_cat": "category-1546",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Perceuse à percussion",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/perceuse-a-percussion",
+  "id_cat": "category-1547",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Boulonneuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/boulonneuse",
+  "id_cat": "category-1549",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Visseuse à chocs",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/visseuse-a-chocs",
+  "id_cat": "category-5307",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Perceuse-Visseuse filaire",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse/perceuse-visseuse-filaire",
+  "id_cat": "category-5310",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/perceuse-visseuse"
+},
+{
+  "name_cat": "Ponceuse-Meuleuse-Scie",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie",
+  "id_cat": "category-5025",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Ponceuse à bande",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/ponceuse-a-bande",
+  "id_cat": "category-1552",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Scie circulaire",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/scie-circulaire",
+  "id_cat": "category-1557",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Scie sauteuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/scie-sauteuse",
+  "id_cat": "category-1556",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Ponceuse multifonction",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/ponceuse-multifonction",
+  "id_cat": "category-1555",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Ponceuse vibrante",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/ponceuse-vibrante",
+  "id_cat": "category-1554",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Ponceuse delta",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/ponceuse-delta",
+  "id_cat": "category-1553",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Ponceuse excentrique",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/ponceuse-excentrique",
+  "id_cat": "category-1551",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Scie égoïne-Sabre",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/scie-egoine-sabre",
+  "id_cat": "category-1558",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Meuleuse",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/meuleuse",
+  "id_cat": "category-1550",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Scie à béton",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie/scie-a-beton",
+  "id_cat": "category-5415",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/ponceuse-meuleuse-scie"
+},
+{
+  "name_cat": "Soudure",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/soudure",
+  "id_cat": "category-5026",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif"
+},
+{
+  "name_cat": "Accessoires de soudure",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/soudure/accessoires-de-soudure",
+  "id_cat": "category-1562",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/soudure"
+},
+{
+  "name_cat": "Fer à souder",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/soudure/fer-a-souder",
+  "id_cat": "category-1559",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/soudure"
+},
+{
+  "name_cat": "Poste à souder",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/soudure/poste-a-souder",
+  "id_cat": "category-1560",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/soudure"
+},
+{
+  "name_cat": "Soudure flamme-Brasage",
+  "url_cat": "https://www.centrale-brico.com/electroportatif/soudure/soudure-flamme-brasage",
+  "id_cat": "category-1561",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electroportatif/soudure"
+},
+{
+  "name_cat": "Outillage",
+  "url_cat": "https://www.centrale-brico.com/outillage",
+  "id_cat": "category-5032",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Automobile",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile",
+  "id_cat": "category-5033",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Cric-Chandelle",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cric-chandelle",
+  "id_cat": "category-1421",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé à molette",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-a-molette",
+  "id_cat": "category-1414",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Accessoire auto",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/accessoire-auto",
+  "id_cat": "category-1850",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé double fourche",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-double-fourche",
+  "id_cat": "category-1415",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé mixte",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-mixte",
+  "id_cat": "category-1416",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé à pipe",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-a-pipe",
+  "id_cat": "category-1417",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé en tube",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-en-tube",
+  "id_cat": "category-1905",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Cliquet-Douille",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cliquet-douille",
+  "id_cat": "category-1418",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Clé 6 pans- Clé Torx",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/cle-6-pans--cle-torx",
+  "id_cat": "category-1419",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Coffret d'outils",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/coffret-d-outils",
+  "id_cat": "category-1420",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Outils garagiste",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/outils-garagiste",
+  "id_cat": "category-1422",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Chargeur de batterie",
+  "url_cat": "https://www.centrale-brico.com/outillage/automobile/chargeur-de-batterie",
+  "id_cat": "category-5328",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/automobile"
+},
+{
+  "name_cat": "Brosserie-Abrasif",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif",
+  "id_cat": "category-5034",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Affûtage",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/affutage",
+  "id_cat": "category-1455",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Abrasif à main",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/abrasif-a-main",
+  "id_cat": "category-1448",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Abrasif pour machine",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/abrasif-pour-machine",
+  "id_cat": "category-1449",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Disque à tronçonner",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/disque-a-tronconner",
+  "id_cat": "category-1450",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Brosse à main",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/brosse-a-main",
+  "id_cat": "category-1451",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Ramonage",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/ramonage",
+  "id_cat": "category-1452",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Brosse pour perceuse",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/brosse-pour-perceuse",
+  "id_cat": "category-1453",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Meule pour touret",
+  "url_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif/meule-pour-touret",
+  "id_cat": "category-1454",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/brosserie-abrasif"
+},
+{
+  "name_cat": "Coupe",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe",
+  "id_cat": "category-5035",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Couteau multifonction",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/couteau-multifonction",
+  "id_cat": "category-1395",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Couteau à dégainer",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/couteau-a-degainer",
+  "id_cat": "category-1396",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Ciseau-Coupe fils",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/ciseau-coupe-fils",
+  "id_cat": "category-1397",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Cutter",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/cutter",
+  "id_cat": "category-1391",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Couteau",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/couteau",
+  "id_cat": "category-1392",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Couteau de loisirs",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/couteau-de-loisirs",
+  "id_cat": "category-1393",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Gratte-vitres",
+  "url_cat": "https://www.centrale-brico.com/outillage/coupe/gratte-vitres",
+  "id_cat": "category-1394",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/coupe"
+},
+{
+  "name_cat": "Frappe",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe",
+  "id_cat": "category-5036",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Outils carrossier",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/outils-carrossier",
+  "id_cat": "category-1407",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Emporte pièce-Coupe joint",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/emporte-piece-coupe-joint",
+  "id_cat": "category-1413",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Pointeau-Chasse pointe",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/pointeau-chasse-pointe",
+  "id_cat": "category-1412",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Broche-Chevillette-Burin",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/broche-chevillette-burin",
+  "id_cat": "category-1411",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Sculpture sur pierre",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/sculpture-sur-pierre",
+  "id_cat": "category-1410",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Maillet",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/maillet",
+  "id_cat": "category-1409",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Masse-Massette",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/masse-massette",
+  "id_cat": "category-1408",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Marteau",
+  "url_cat": "https://www.centrale-brico.com/outillage/frappe/marteau",
+  "id_cat": "category-1406",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/frappe"
+},
+{
+  "name_cat": "Outils Bâtiment",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment",
+  "id_cat": "category-5037",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Outils carrelage-parquet",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/outils-carrelage-parquet",
+  "id_cat": "category-1457",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Outils plaquiste-Couvreur",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/outils-plaquiste-couvreur",
+  "id_cat": "category-1466",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Pince à décoffrer-Barre à mine",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/pince-a-decoffrer-barre-a-mine",
+  "id_cat": "category-1465",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Outils de coffreur-Pelle-Pioche",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/outils-de-coffreur-pelle-pioche",
+  "id_cat": "category-1464",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Machine à crépir",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/machine-a-crepir",
+  "id_cat": "category-1463",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Auge-Seau",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/auge-seau",
+  "id_cat": "category-1462",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Truelle-Taloche",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/truelle-taloche",
+  "id_cat": "category-1461",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Outil tapissier",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/outil-tapissier",
+  "id_cat": "category-1460",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Pinceau-Rouleau",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/pinceau-rouleau",
+  "id_cat": "category-1459",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Couteau à enduire",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/couteau-a-enduire",
+  "id_cat": "category-1458",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Outils vitre",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-batiment/outils-vitre",
+  "id_cat": "category-1456",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-batiment"
+},
+{
+  "name_cat": "Outils à bois",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois",
+  "id_cat": "category-5038",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Ciseau à bois",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/ciseau-a-bois",
+  "id_cat": "category-1398",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Coffret d'outils à bois",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/coffret-d-outils-a-bois",
+  "id_cat": "category-1405",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Fer de rabot",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/fer-de-rabot",
+  "id_cat": "category-1404",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Lime-Rape",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/lime-rape",
+  "id_cat": "category-1403",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Rabot-rape et Surform",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/rabot-rape-et-surform",
+  "id_cat": "category-1402",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Rabot Guillaume",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/rabot-guillaume",
+  "id_cat": "category-1401",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Rabot à bois",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/rabot-a-bois",
+  "id_cat": "category-1400",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Racloir-Vastringue",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/racloir-vastringue",
+  "id_cat": "category-1399",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Accessoire pour défonceuse",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/accessoire-pour-defonceuse",
+  "id_cat": "category-5339",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Bloc de poussée",
+  "url_cat": "https://www.centrale-brico.com/outillage/outils-a-bois/bloc-de-poussee",
+  "id_cat": "category-5340",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/outils-a-bois"
+},
+{
+  "name_cat": "Perçage-Fraisage",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage",
+  "id_cat": "category-5039",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Perçage Béton-Verre",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/percage-beton-verre",
+  "id_cat": "category-1375",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Perçage Métaux",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/percage-metaux",
+  "id_cat": "category-1374",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Fraise-Défonceuse",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/fraise-defonceuse",
+  "id_cat": "category-1377",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Extracteur-Taraud",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/extracteur-taraud",
+  "id_cat": "category-1378",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Accessoires de perçage",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/accessoires-de-percage",
+  "id_cat": "category-1379",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Coffret forêts mixtes",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/coffret-forets-mixtes",
+  "id_cat": "category-1380",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Perçage Bois",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/percage-bois",
+  "id_cat": "category-1376",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Perçage Céramique",
+  "url_cat": "https://www.centrale-brico.com/outillage/percage-fraisage/percage-ceramique",
+  "id_cat": "category-5279",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/percage-fraisage"
+},
+{
+  "name_cat": "Pince-Tenaille",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille",
+  "id_cat": "category-5040",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Pince universelle",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-universelle",
+  "id_cat": "category-1428",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince coupante",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-coupante",
+  "id_cat": "category-1430",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince téléphone",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-telephone",
+  "id_cat": "category-1431",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince à dénuder",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-a-denuder",
+  "id_cat": "category-1432",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince circlips",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-circlips",
+  "id_cat": "category-1433",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince à avoyer",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-a-avoyer",
+  "id_cat": "category-1434",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince-étau",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-etau",
+  "id_cat": "category-1435",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Coupe boulon-Cisaille",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/coupe-boulon-cisaille",
+  "id_cat": "category-1437",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Tenaille",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/tenaille",
+  "id_cat": "category-1436",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince à Bec",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-a-bec",
+  "id_cat": "category-1728",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince de précision",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-de-precision",
+  "id_cat": "category-1427",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Pince multiprise",
+  "url_cat": "https://www.centrale-brico.com/outillage/pince-tenaille/pince-multiprise",
+  "id_cat": "category-1429",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/pince-tenaille"
+},
+{
+  "name_cat": "Plomberie",
+  "url_cat": "https://www.centrale-brico.com/outillage/plomberie",
+  "id_cat": "category-5041",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Coupe tube-Ebavureur",
+  "url_cat": "https://www.centrale-brico.com/outillage/plomberie/coupe-tube-ebavureur",
+  "id_cat": "category-1424",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/plomberie"
+},
+{
+  "name_cat": "Débouchage",
+  "url_cat": "https://www.centrale-brico.com/outillage/plomberie/debouchage",
+  "id_cat": "category-1426",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/plomberie"
+},
+{
+  "name_cat": "Cintrage",
+  "url_cat": "https://www.centrale-brico.com/outillage/plomberie/cintrage",
+  "id_cat": "category-1425",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/plomberie"
+},
+{
+  "name_cat": "Clé serre-tube",
+  "url_cat": "https://www.centrale-brico.com/outillage/plomberie/cle-serre-tube",
+  "id_cat": "category-1423",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/plomberie"
+},
+{
+  "name_cat": "Sciage",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage",
+  "id_cat": "category-5042",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Scie à guichet",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-a-guichet",
+  "id_cat": "category-1383",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Lame de scie",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/lame-de-scie",
+  "id_cat": "category-1382",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Boîte à onglet",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/boite-a-onglet",
+  "id_cat": "category-1388",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie à métaux",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-a-metaux",
+  "id_cat": "category-1389",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie maquettiste",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-maquettiste",
+  "id_cat": "category-1390",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie cloche-Trépan",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-cloche-trepan",
+  "id_cat": "category-1381",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie à onglet",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-a-onglet",
+  "id_cat": "category-1387",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie à dos",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-a-dos",
+  "id_cat": "category-1385",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie japonaise",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-japonaise",
+  "id_cat": "category-1384",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Scie égoïne",
+  "url_cat": "https://www.centrale-brico.com/outillage/sciage/scie-egoine",
+  "id_cat": "category-1386",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/sciage"
+},
+{
+  "name_cat": "Vissage",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage",
+  "id_cat": "category-5043",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/outillage"
+},
+{
+  "name_cat": "Tournevis de précision",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-de-precision",
+  "id_cat": "category-1438",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Coffret de tournevis",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/coffret-de-tournevis",
+  "id_cat": "category-1442",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis isolé",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-isole",
+  "id_cat": "category-1443",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis Torx",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-torx",
+  "id_cat": "category-1446",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis plat",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-plat",
+  "id_cat": "category-1444",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis cruciforme",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-cruciforme",
+  "id_cat": "category-1445",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis Pozidriv",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-pozidriv",
+  "id_cat": "category-1447",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Porte embout",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/porte-embout",
+  "id_cat": "category-1441",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Embout de vissage",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/embout-de-vissage",
+  "id_cat": "category-1440",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Tournevis spéciaux",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/tournevis-speciaux",
+  "id_cat": "category-1439",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Boîte à vis",
+  "url_cat": "https://www.centrale-brico.com/outillage/vissage/boite-a-vis",
+  "id_cat": "category-5280",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/outillage/vissage"
+},
+{
+  "name_cat": "Atelier-Chantier",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier",
+  "id_cat": "category-5000",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Chariot-Levage-Serrage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage",
+  "id_cat": "category-5001",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Treuil-Palan-Poulie",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/treuil-palan-poulie",
+  "id_cat": "category-1496",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Lève plaque",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/leve-plaque",
+  "id_cat": "category-1495",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Chariot-Diable",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/chariot-diable",
+  "id_cat": "category-1494",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Brouette",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/brouette",
+  "id_cat": "category-1500",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Etau-Enclume",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/etau-enclume",
+  "id_cat": "category-1499",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Presse-Serre joint",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/presse-serre-joint",
+  "id_cat": "category-1498",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Sangle-Sandow",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/sangle-sandow",
+  "id_cat": "category-1497",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Rampe de chargement",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/rampe-de-chargement",
+  "id_cat": "category-5326",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Malette outils",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage/malette-outils",
+  "id_cat": "category-5400",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/chariot-levage-serrage"
+},
+{
+  "name_cat": "Droguerie",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie",
+  "id_cat": "category-5002",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Burette-Broc-Pulvérisateur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/burette-broc-pulverisateur",
+  "id_cat": "category-1741",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Dégrippant-Graisse-Lubrifiant",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/degrippant-graisse-lubrifiant",
+  "id_cat": "category-1742",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Entonnoir-Jerrycan",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/entonnoir-jerrycan",
+  "id_cat": "category-1743",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Pompe-Seringue",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/pompe-seringue",
+  "id_cat": "category-1744",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Nettoyage et entretien",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/nettoyage-et-entretien",
+  "id_cat": "category-1745",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Agrafe-Pointe",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/agrafe-pointe",
+  "id_cat": "category-1746",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Agrafeuse-Cloueur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/agrafeuse-cloueur",
+  "id_cat": "category-1747",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Colle-mastic en pot",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/colle-mastic-en-pot",
+  "id_cat": "category-1801",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Colle-mastic en cartouche",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/colle-mastic-en-cartouche",
+  "id_cat": "category-1802",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Pistolet - Baton de colle",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/pistolet-baton-de-colle",
+  "id_cat": "category-1798",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Rivetage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/rivetage",
+  "id_cat": "category-1867",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Chaîne-Cordage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/chaine-cordage",
+  "id_cat": "category-1748",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Collier-Liens",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/collier-liens",
+  "id_cat": "category-1750",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Ruban adhésif",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie/ruban-adhesif",
+  "id_cat": "category-1751",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/droguerie"
+},
+{
+  "name_cat": "Equipement d'atelier",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier",
+  "id_cat": "category-5004",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Eclairage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/eclairage",
+  "id_cat": "category-1481",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Etabli modulable",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/etabli-modulable",
+  "id_cat": "category-1473",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Etabli bois et métal",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/etabli-bois-et-metal",
+  "id_cat": "category-1472",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Rangement évolutif",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/rangement-evolutif",
+  "id_cat": "category-1474",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Table de métier",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/table-de-metier",
+  "id_cat": "category-1475",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Tréteau",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier/treteau",
+  "id_cat": "category-1476",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/equipement-d-atelier"
+},
+{
+  "name_cat": "Métrologie-Traçage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage",
+  "id_cat": "category-5005",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Pied à coulisse-Jauge",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/pied-a-coulisse-jauge",
+  "id_cat": "category-1486",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Rapporteur-Compas",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/rapporteur-compas",
+  "id_cat": "category-1488",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Pointe-Marqueur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/pointe-marqueur",
+  "id_cat": "category-1489",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Peinture-Marque",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/peinture-marque",
+  "id_cat": "category-1490",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Plombs à sceller",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/plombs-a-sceller",
+  "id_cat": "category-1491",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Niveau-Règle",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/niveau-regle",
+  "id_cat": "category-1492",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Cordeau-Plomb-Poudre",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/cordeau-plomb-poudre",
+  "id_cat": "category-1493",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Mètre d'arpenteur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/metre-d-arpenteur",
+  "id_cat": "category-1725",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Mètre ruban",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/metre-ruban",
+  "id_cat": "category-1482",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Règle-Mesure pliante",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/regle-mesure-pliante",
+  "id_cat": "category-1483",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Mesure électronique",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/mesure-electronique",
+  "id_cat": "category-1484",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Détecteur-Testeur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/detecteur-testeur",
+  "id_cat": "category-1485",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Trusquin-Équerre",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/trusquin-equerre",
+  "id_cat": "category-1487",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Equilibrage de roues",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage/equilibrage-de-roues",
+  "id_cat": "category-5414",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/metrologie-tracage"
+},
+{
+  "name_cat": "Protection des personnes",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes",
+  "id_cat": "category-5006",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Harnais",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/harnais",
+  "id_cat": "category-1509",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Chaussure de sécurité",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/chaussure-de-securite",
+  "id_cat": "category-1511",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Casque",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/casque",
+  "id_cat": "category-1512",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Autre protection",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/autre-protection",
+  "id_cat": "category-1513",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Genouillères",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/genouilleres",
+  "id_cat": "category-1794",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Protection auditive",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/protection-auditive",
+  "id_cat": "category-1795",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Ensemble de pluie",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/ensemble-de-pluie",
+  "id_cat": "category-1796",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "1er secours",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/1er-secours",
+  "id_cat": "category-1797",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Veste-Gilet",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/veste-gilet",
+  "id_cat": "category-1506",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Pantalon-Combinaison",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/pantalon-combinaison",
+  "id_cat": "category-1507",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Lunette-Masque",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/lunette-masque",
+  "id_cat": "category-1508",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Gant",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes/gant",
+  "id_cat": "category-1510",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/protection-des-personnes"
+},
+{
+  "name_cat": "Rangement",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement",
+  "id_cat": "category-5007",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Bac-Casier",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/bac-casier",
+  "id_cat": "category-1468",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Poche-Sac à outils",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/poche-sac-a-outils",
+  "id_cat": "category-1467",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Servante d'atelier",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/servante-d-atelier",
+  "id_cat": "category-1471",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Etagère modulable",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/etagere-modulable",
+  "id_cat": "category-5256",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Rayonnage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/rayonnage",
+  "id_cat": "category-5257",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Mallette organiseur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/mallette-organiseur",
+  "id_cat": "category-1469",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Boîte à outils",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/rangement/boite-a-outils",
+  "id_cat": "category-1470",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/rangement"
+},
+{
+  "name_cat": "Travail en hauteur",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur",
+  "id_cat": "category-5142",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier"
+},
+{
+  "name_cat": "Echelle transformable",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-transformable",
+  "id_cat": "category-5154",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle multi-positions",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-multi-positions",
+  "id_cat": "category-5155",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Escabeau",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/escabeau",
+  "id_cat": "category-5146",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle télescopique",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-telescopique",
+  "id_cat": "category-5156",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echafaudage",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echafaudage",
+  "id_cat": "category-5147",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle double",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-double",
+  "id_cat": "category-5151",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle de toit",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-de-toit",
+  "id_cat": "category-5150",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Marchepied",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/marchepied",
+  "id_cat": "category-5149",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle coulissante",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-coulissante",
+  "id_cat": "category-5153",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Echelle simple",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/echelle-simple",
+  "id_cat": "category-5152",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Plateforme individuelle",
+  "url_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur/plateforme-individuelle",
+  "id_cat": "category-5148",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/atelier-chantier/travail-en-hauteur"
+},
+{
+  "name_cat": "Quincaillerie",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie",
+  "id_cat": "category-5055",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Ameublement",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement",
+  "id_cat": "category-5056",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Coulisse",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/coulisse",
+  "id_cat": "category-1938",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Taquet",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/taquet",
+  "id_cat": "category-1937",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Assemblage meuble",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/assemblage-meuble",
+  "id_cat": "category-1936",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Console",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/console",
+  "id_cat": "category-1930",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Fermeture meuble",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/fermeture-meuble",
+  "id_cat": "category-1935",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Charnière",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/charniere",
+  "id_cat": "category-1929",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Poignée meuble",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/poignee-meuble",
+  "id_cat": "category-1928",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Sécurité Enfants",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/securite-enfants",
+  "id_cat": "category-2049",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Pistons et compas",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/pistons-et-compas",
+  "id_cat": "category-5159",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Tiroirs",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/tiroirs",
+  "id_cat": "category-5160",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Pied de meuble",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/pied-de-meuble",
+  "id_cat": "category-1940",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Tourillon",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/ameublement/tourillon",
+  "id_cat": "category-1939",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/ameublement"
+},
+{
+  "name_cat": "Armoire-Penderie",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie",
+  "id_cat": "category-5144",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Accessoires pour armoires",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/accessoires-pour-armoires",
+  "id_cat": "category-5161",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Barres de penderies",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/barres-de-penderies",
+  "id_cat": "category-5162",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Eléments pour compositions intérieur",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/elements-pour-compositions-interieur",
+  "id_cat": "category-5165",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Porte-pantalons",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/porte-pantalons",
+  "id_cat": "category-5164",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Rangement de chaussures",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/rangement-de-chaussures",
+  "id_cat": "category-5163",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Armoire d'intérieur",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie/armoire-d-interieur",
+  "id_cat": "category-5290",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/armoire-penderie"
+},
+{
+  "name_cat": "Bâtiment",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment",
+  "id_cat": "category-5057",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Bâche de protection",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/bache-de-protection",
+  "id_cat": "category-1774",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Boîte aux lettres",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/boite-aux-lettres",
+  "id_cat": "category-1773",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Armoire à clés",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/armoire-a-cles",
+  "id_cat": "category-1776",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Accessoires Portail",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/accessoires-portail",
+  "id_cat": "category-2056",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Signalisation",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/signalisation",
+  "id_cat": "category-1777",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Coffre-fort",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/coffre-fort",
+  "id_cat": "category-1775",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Tôle et profilé",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/tole-et-profile",
+  "id_cat": "category-5258",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Lambris",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/lambris",
+  "id_cat": "category-5291",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Trappe de visite",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/trappe-de-visite",
+  "id_cat": "category-5292",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Plancher et sol",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/plancher-et-sol",
+  "id_cat": "category-5306",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Escalier",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/escalier",
+  "id_cat": "category-5316",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Garde-corps",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/garde-corps",
+  "id_cat": "category-5317",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Main courante",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/batiment/main-courante",
+  "id_cat": "category-5318",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/batiment"
+},
+{
+  "name_cat": "Fixation",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation",
+  "id_cat": "category-5058",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Rondelle",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/rondelle",
+  "id_cat": "category-1763",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cache-vis",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cache-vis",
+  "id_cat": "category-1933",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis à tôle",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-a-tole",
+  "id_cat": "category-1932",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Auto-Agrippant",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/auto-agrippant",
+  "id_cat": "category-2043",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Goupille",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/goupille",
+  "id_cat": "category-1767",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis à plâtre",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-a-platre",
+  "id_cat": "category-1766",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Ecrou",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/ecrou",
+  "id_cat": "category-1765",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis à métaux",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-a-metaux",
+  "id_cat": "category-1764",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Tirefond",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/tirefond",
+  "id_cat": "category-1926",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Tige filetée",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/tige-filetee",
+  "id_cat": "category-1762",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville support creux",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-support-creux",
+  "id_cat": "category-1754",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville tous matériaux",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-tous-materiaux",
+  "id_cat": "category-1752",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Boulon",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/boulon",
+  "id_cat": "category-1753",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville fixation lourde",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-fixation-lourde",
+  "id_cat": "category-1755",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville support plein",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-support-plein",
+  "id_cat": "category-1756",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Piton - Crochet - Gond",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/piton---crochet---gond",
+  "id_cat": "category-1757",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Pointe-Clous",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/pointe-clous",
+  "id_cat": "category-1758",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis autoforeuse",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-autoforeuse",
+  "id_cat": "category-1759",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis à bois",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-a-bois",
+  "id_cat": "category-1760",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville à frapper",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-a-frapper",
+  "id_cat": "category-1761",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Résine-Scellement chimique",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/resine-scellement-chimique",
+  "id_cat": "category-1521",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Ecrous à sertir-Oeilletage",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/ecrous-a-sertir-oeilletage",
+  "id_cat": "category-1518",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Rivetage",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/rivetage",
+  "id_cat": "category-1517",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Cheville fixation spécifique",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/cheville-fixation-specifique",
+  "id_cat": "category-1934",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis à béton",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-a-beton",
+  "id_cat": "category-5249",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Enduit et mortier",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/enduit-et-mortier",
+  "id_cat": "category-5293",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis inox",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-inox",
+  "id_cat": "category-5294",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Vis relieuse",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/fixation/vis-relieuse",
+  "id_cat": "category-5295",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/fixation"
+},
+{
+  "name_cat": "Meuble-Rangement",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement",
+  "id_cat": "category-5059",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Roulette",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/roulette",
+  "id_cat": "category-1531",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Console",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/console",
+  "id_cat": "category-1534",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Patte-Equerre",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/patte-equerre",
+  "id_cat": "category-1533",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Crémaillère",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/cremaillere",
+  "id_cat": "category-1532",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Boîte de rangement",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/boite-de-rangement",
+  "id_cat": "category-5296",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Portemanteau",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/portemanteau",
+  "id_cat": "category-5297",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Bibliothèque",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/bibliotheque",
+  "id_cat": "category-5402",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Bureau",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/bureau",
+  "id_cat": "category-5403",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Commode",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/commode",
+  "id_cat": "category-5404",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Meuble TV",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/meuble-tv",
+  "id_cat": "category-5405",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Range-Couverts",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement/range-couverts",
+  "id_cat": "category-5435",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/meuble-rangement"
+},
+{
+  "name_cat": "Porte-Fenêtre",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre",
+  "id_cat": "category-5060",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Penture",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/penture",
+  "id_cat": "category-1530",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Isolation",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/isolation",
+  "id_cat": "category-1529",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Bas de porte",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/bas-de-porte",
+  "id_cat": "category-1527",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Poignée de porte",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/poignee-de-porte",
+  "id_cat": "category-1528",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Rail de porte coulissante",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/rail-de-porte-coulissante",
+  "id_cat": "category-1526",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Ferme-porte",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/ferme-porte",
+  "id_cat": "category-2058",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Volets",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/volets",
+  "id_cat": "category-2057",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Porte coulissante",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/porte-coulissante",
+  "id_cat": "category-5298",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Rideau",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/rideau",
+  "id_cat": "category-5299",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Store",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre/store",
+  "id_cat": "category-5300",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/porte-fenetre"
+},
+{
+  "name_cat": "Serrurerie",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie",
+  "id_cat": "category-5061",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie"
+},
+{
+  "name_cat": "Cadenas-Antivol",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/cadenas-antivol",
+  "id_cat": "category-1535",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Serrure en applique",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/serrure-en-applique",
+  "id_cat": "category-1941",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Gâche électrique",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/gache-electrique",
+  "id_cat": "category-1931",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Serrure de portail",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/serrure-de-portail",
+  "id_cat": "category-1768",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Serrure à larder",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/serrure-a-larder",
+  "id_cat": "category-1538",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Cylindre",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/cylindre",
+  "id_cat": "category-1537",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Verrou",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/verrou",
+  "id_cat": "category-1536",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Poignée de porte",
+  "url_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie/poignee-de-porte",
+  "id_cat": "category-2059",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/quincaillerie/serrurerie"
+},
+{
+  "name_cat": "Electricité",
+  "url_cat": "https://www.centrale-brico.com/electricite",
+  "id_cat": "category-5012",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Branchement",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement",
+  "id_cat": "category-5013",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electricite"
+},
+{
+  "name_cat": "Bloc-Multiprise",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/bloc-multiprise",
+  "id_cat": "category-1284",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Prise de courant",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/prise-de-courant",
+  "id_cat": "category-1287",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Fiche mâle",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/fiche-male",
+  "id_cat": "category-1286",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Accessoire branchement",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/accessoire-branchement",
+  "id_cat": "category-1283",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Câble-Rallonge",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/cable-rallonge",
+  "id_cat": "category-1285",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Fils et câbles",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/fils-et-cables",
+  "id_cat": "category-1955",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Cosse",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/cosse",
+  "id_cat": "category-1958",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Enrouleur",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/enrouleur",
+  "id_cat": "category-1320",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Fiche femelle",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/fiche-femelle",
+  "id_cat": "category-2051",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Gaine -  conduit électrique",
+  "url_cat": "https://www.centrale-brico.com/electricite/branchement/gaine-conduit-electrique",
+  "id_cat": "category-5271",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/branchement"
+},
+{
+  "name_cat": "Eclairage",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage",
+  "id_cat": "category-5014",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electricite"
+},
+{
+  "name_cat": "Lampe à poser",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-a-poser",
+  "id_cat": "category-1956",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe à incandescence",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-a-incandescence",
+  "id_cat": "category-1970",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe Fluocompacte",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-fluocompacte",
+  "id_cat": "category-1969",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe Halogène",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-halogene",
+  "id_cat": "category-1968",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Projecteur Halogène",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/projecteur-halogene",
+  "id_cat": "category-1967",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Luminaire Extérieur",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/luminaire-exterieur",
+  "id_cat": "category-1966",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe plafonnier",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-plafonnier",
+  "id_cat": "category-1965",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe en applique",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-en-applique",
+  "id_cat": "category-1964",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Spot encastrable",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/spot-encastrable",
+  "id_cat": "category-1962",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Spot à fixer",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/spot-a-fixer",
+  "id_cat": "category-1961",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe LED",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-led",
+  "id_cat": "category-1957",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe suspendue",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-suspendue",
+  "id_cat": "category-1963",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampadaire d'intérieur",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampadaire-d-interieur",
+  "id_cat": "category-1960",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Projecteur LED",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/projecteur-led",
+  "id_cat": "category-2052",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Signalisation",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/signalisation",
+  "id_cat": "category-1291",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Interrupteur",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/interrupteur",
+  "id_cat": "category-1290",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Douille",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/douille",
+  "id_cat": "category-1289",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Baladeuse",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/baladeuse",
+  "id_cat": "category-1288",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Accessoires pour lustre",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/accessoires-pour-lustre",
+  "id_cat": "category-5272",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampe veilleuse",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampe-veilleuse",
+  "id_cat": "category-5273",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Lampadaire d'extérieur",
+  "url_cat": "https://www.centrale-brico.com/electricite/eclairage/lampadaire-d-exterieur",
+  "id_cat": "category-5430",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/eclairage"
+},
+{
+  "name_cat": "Installation",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation",
+  "id_cat": "category-5015",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electricite"
+},
+{
+  "name_cat": "Horloge-Mesure",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/horloge-mesure",
+  "id_cat": "category-1297",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Interrupteur-Prise-Télérupteur",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/interrupteur-prise-telerupteur",
+  "id_cat": "category-1298",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Moulure-Accessoire",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/moulure-accessoire",
+  "id_cat": "category-1299",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Outil-Isolant",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/outil-isolant",
+  "id_cat": "category-1300",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Tableau-Distribution",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/tableau-distribution",
+  "id_cat": "category-1302",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Signalisation-Sonnette-Carillon",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/signalisation-sonnette-carillon",
+  "id_cat": "category-1307",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Contacteur-Poussoir-Variateur",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/contacteur-poussoir-variateur",
+  "id_cat": "category-1296",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Borne-Connexion-Fixation",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/borne-connexion-fixation",
+  "id_cat": "category-1295",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Boîte dérivation-Encastrement",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/boite-derivation-encastrement",
+  "id_cat": "category-1294",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Accessoires interrupteur-Prise",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/accessoires-interrupteur-prise",
+  "id_cat": "category-1293",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Panneau solaire",
+  "url_cat": "https://www.centrale-brico.com/electricite/installation/panneau-solaire",
+  "id_cat": "category-5338",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/installation"
+},
+{
+  "name_cat": "Multimédia",
+  "url_cat": "https://www.centrale-brico.com/electricite/multimedia",
+  "id_cat": "category-5017",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electricite"
+},
+{
+  "name_cat": "Informatique-TV-Téléphone",
+  "url_cat": "https://www.centrale-brico.com/electricite/multimedia/informatique-tv-telephone",
+  "id_cat": "category-1303",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/multimedia"
+},
+{
+  "name_cat": "Antenne",
+  "url_cat": "https://www.centrale-brico.com/electricite/multimedia/antenne",
+  "id_cat": "category-1959",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/multimedia"
+},
+{
+  "name_cat": "Pile-Batterie",
+  "url_cat": "https://www.centrale-brico.com/electricite/multimedia/pile-batterie",
+  "id_cat": "category-1321",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/multimedia"
+},
+{
+  "name_cat": "Protection",
+  "url_cat": "https://www.centrale-brico.com/electricite/protection",
+  "id_cat": "category-5018",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/electricite"
+},
+{
+  "name_cat": "Sécurité",
+  "url_cat": "https://www.centrale-brico.com/electricite/protection/securite",
+  "id_cat": "category-2050",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/protection"
+},
+{
+  "name_cat": "Fusible",
+  "url_cat": "https://www.centrale-brico.com/electricite/protection/fusible",
+  "id_cat": "category-1305",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/protection"
+},
+{
+  "name_cat": "Disjoncteur-Différentiel",
+  "url_cat": "https://www.centrale-brico.com/electricite/protection/disjoncteur-differentiel",
+  "id_cat": "category-1304",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/electricite/protection"
+},
+{
+  "name_cat": "Chauffage - Traitement de l'air",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air",
+  "id_cat": "category-5346",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Poêle à bois - Poêle à granulés",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules",
+  "id_cat": "category-5353",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Poêle à bois",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules/poele-a-bois",
+  "id_cat": "category-5385",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules"
+},
+{
+  "name_cat": "Poêle à granulés",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules/poele-a-granules",
+  "id_cat": "category-5386",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules"
+},
+{
+  "name_cat": "Accessoires poêles à bois",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules/accessoires-poeles-a-bois",
+  "id_cat": "category-5384",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-bois---poele-a-granules"
+},
+{
+  "name_cat": "Radiateur Electrique",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique",
+  "id_cat": "category-5355",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Radiateur électrique fixe",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/radiateur-electrique-fixe",
+  "id_cat": "category-5393",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Radiateur mobile",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/radiateur-mobile",
+  "id_cat": "category-5392",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Sèche serviette",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/seche-serviette",
+  "id_cat": "category-5394",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Chauffage de Chantier",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/chauffage-de-chantier",
+  "id_cat": "category-5391",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Thermostat - accessoires",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/thermostat---accessoires",
+  "id_cat": "category-5395",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Double technologie",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/double-technologie",
+  "id_cat": "category-5417",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Inertie fluide",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/inertie-fluide",
+  "id_cat": "category-5418",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Inertie sèche",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique/inertie-seche",
+  "id_cat": "category-5419",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-electrique"
+},
+{
+  "name_cat": "Cheminée - Insert",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert",
+  "id_cat": "category-5350",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Cheminée électrique",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert/cheminee-electrique",
+  "id_cat": "category-5372",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert"
+},
+{
+  "name_cat": "Insert de cheminée",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert/insert-de-cheminee",
+  "id_cat": "category-5373",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert"
+},
+{
+  "name_cat": "Cheminée à bois",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert/cheminee-a-bois",
+  "id_cat": "category-5371",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert"
+},
+{
+  "name_cat": "Accessoires d'insert",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert/accessoires-d-insert",
+  "id_cat": "category-5370",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/cheminee---insert"
+},
+{
+  "name_cat": "Poêle à pétrole",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole",
+  "id_cat": "category-5354",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Poêle à pétrole",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole/poele-a-petrole",
+  "id_cat": "category-5390",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole"
+},
+{
+  "name_cat": "Poêle à gaz",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole/poele-a-gaz",
+  "id_cat": "category-5389",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole"
+},
+{
+  "name_cat": "Accessoire poêles à pétrole",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole/accessoire-poeles-a-petrole",
+  "id_cat": "category-5387",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole"
+},
+{
+  "name_cat": "Combustible",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole/combustible",
+  "id_cat": "category-5388",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/poele-a-petrole"
+},
+{
+  "name_cat": "Chauffe-eau",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau",
+  "id_cat": "category-5349",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Chauffe-eau électrique",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau/chauffe-eau-electrique",
+  "id_cat": "category-5369",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau"
+},
+{
+  "name_cat": "Chauffe-eau thermodynamique",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau/chauffe-eau-thermodynamique",
+  "id_cat": "category-5368",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau"
+},
+{
+  "name_cat": "Accessoire Chauffe-eau",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau/accessoire-chauffe-eau",
+  "id_cat": "category-5367",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffe-eau"
+},
+{
+  "name_cat": "VMC - extracteur d'air",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air",
+  "id_cat": "category-5356",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "VMC simple flux",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air/vmc-simple-flux",
+  "id_cat": "category-5399",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air"
+},
+{
+  "name_cat": "VMC double flux",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air/vmc-double-flux",
+  "id_cat": "category-5398",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air"
+},
+{
+  "name_cat": "Bouche d'aération - extracteur",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air/bouche-d-aeration---extracteur",
+  "id_cat": "category-5396",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air"
+},
+{
+  "name_cat": "Distribution d'air - Grille d'aération",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air/distribution-d-air---grille-d-aeration",
+  "id_cat": "category-5397",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/vmc---extracteur-d-air"
+},
+{
+  "name_cat": "Fumisterie - Tubage",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage",
+  "id_cat": "category-5352",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Kit de raccordement",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/kit-de-raccordement",
+  "id_cat": "category-5379",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Tubage flexible",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/tubage-flexible",
+  "id_cat": "category-5382",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Tubage rigide",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/tubage-rigide",
+  "id_cat": "category-5383",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Distribution d'air chaud - caisson",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/distribution-d-air-chaud---caisson",
+  "id_cat": "category-5378",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Raccordement - Accessoires",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/raccordement---accessoires",
+  "id_cat": "category-5380",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Sortie de toit",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage/sortie-de-toit",
+  "id_cat": "category-5381",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/fumisterie---tubage"
+},
+{
+  "name_cat": "Climatiseur - ventilateur",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur",
+  "id_cat": "category-5351",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Climatiseur mobile",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur/climatiseur-mobile",
+  "id_cat": "category-5375",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur"
+},
+{
+  "name_cat": "Climatiseur fixe",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur/climatiseur-fixe",
+  "id_cat": "category-5374",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur"
+},
+{
+  "name_cat": "Ventilateur",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur/ventilateur",
+  "id_cat": "category-5377",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur"
+},
+{
+  "name_cat": "Déshumidificateur",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur/deshumidificateur",
+  "id_cat": "category-5376",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/climatiseur---ventilateur"
+},
+{
+  "name_cat": "Accessoires de Cheminée",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee",
+  "id_cat": "category-5347",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Range-bûches",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/range-buches",
+  "id_cat": "category-5363",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Chenet",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/chenet",
+  "id_cat": "category-5358",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Panier à bûches",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/panier-a-buches",
+  "id_cat": "category-5359",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Réserve à granulés",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/reserve-a-granules",
+  "id_cat": "category-5364",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Pare-feux",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/pare-feux",
+  "id_cat": "category-5360",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Protection murale",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/protection-murale",
+  "id_cat": "category-5362",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Accessoires pour foyers et poêles",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/accessoires-pour-foyers-et-poeles",
+  "id_cat": "category-5357",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Aspirateur à cendres",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/aspirateur-a-cendres",
+  "id_cat": "category-5406",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Chariot à bûches",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/chariot-a-buches",
+  "id_cat": "category-5407",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Chenets",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/chenets",
+  "id_cat": "category-5408",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Pelle à granulés et cendres",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/pelle-a-granules-et-cendres",
+  "id_cat": "category-5409",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Pince et tison",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/pince-et-tison",
+  "id_cat": "category-5410",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Plaque de sol",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/plaque-de-sol",
+  "id_cat": "category-5361",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Plaque murale",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/plaque-murale",
+  "id_cat": "category-5411",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Porte-bûches",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/porte-buches",
+  "id_cat": "category-5412",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Serviteur",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/serviteur",
+  "id_cat": "category-5365",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Soufflet",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee/soufflet",
+  "id_cat": "category-5413",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/accessoires-de-cheminee"
+},
+{
+  "name_cat": "Chauffage au sol",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffage-au-sol",
+  "id_cat": "category-5348",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Chauffage au sol",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffage-au-sol/chauffage-au-sol",
+  "id_cat": "category-5366",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/chauffage-au-sol"
+},
+{
+  "name_cat": "Radiateur à eau chaude",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-a-eau-chaude",
+  "id_cat": "category-5433",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air"
+},
+{
+  "name_cat": "Radiateur à eau chaude fixe",
+  "url_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-a-eau-chaude/radiateur-a-eau-chaude-fixe",
+  "id_cat": "category-5434",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/chauffage---traitement-de-l-air/radiateur-a-eau-chaude"
+},
+{
+  "name_cat": "Plomberie-Sanitaire",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire",
+  "id_cat": "category-5044",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Accessoires Robinetterie",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie",
+  "id_cat": "category-5045",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Aérateur",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie/aerateur",
+  "id_cat": "category-1869",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie"
+},
+{
+  "name_cat": "Flexible d'alimentation",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie/flexible-d-alimentation",
+  "id_cat": "category-1873",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie"
+},
+{
+  "name_cat": "Raccord",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie/raccord",
+  "id_cat": "category-1872",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie"
+},
+{
+  "name_cat": "Tête de robinet",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie/tete-de-robinet",
+  "id_cat": "category-1871",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie"
+},
+{
+  "name_cat": "Brise jet - Bec",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie/brise-jet-bec",
+  "id_cat": "category-1870",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/accessoires-robinetterie"
+},
+{
+  "name_cat": "Robinet pour Cuisine",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/robinet-pour-cuisine",
+  "id_cat": "category-5047",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Mitigeur Cuisine",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/robinet-pour-cuisine/mitigeur-cuisine",
+  "id_cat": "category-1852",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/robinet-pour-cuisine"
+},
+{
+  "name_cat": "Raccord Cuivre Laiton",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton",
+  "id_cat": "category-5048",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Raccord à visser",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton/raccord-a-visser",
+  "id_cat": "category-1894",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton"
+},
+{
+  "name_cat": "Collier de fixation",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton/collier-de-fixation",
+  "id_cat": "category-1896",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton"
+},
+{
+  "name_cat": "Raccord sans soudure",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton/raccord-sans-soudure",
+  "id_cat": "category-1895",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton"
+},
+{
+  "name_cat": "Raccord cuivre à souder",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton/raccord-cuivre-a-souder",
+  "id_cat": "category-1866",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton"
+},
+{
+  "name_cat": "Raccord laiton à souder",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton/raccord-laiton-a-souder",
+  "id_cat": "category-1893",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-cuivre-laiton"
+},
+{
+  "name_cat": "Raccord PVC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc",
+  "id_cat": "category-5049",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Support - Crochet",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/support-crochet",
+  "id_cat": "category-1903",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Branchement",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/branchement",
+  "id_cat": "category-1900",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Gouttière 1/2 ronde",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/gouttiere-12-ronde",
+  "id_cat": "category-1902",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Té - Culotte",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/te-culotte",
+  "id_cat": "category-1899",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Accessoire tube",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/accessoire-tube",
+  "id_cat": "category-1904",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Regard- Equipement",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/regard-equipement",
+  "id_cat": "category-1901",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Coude - Secteur",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/coude-secteur",
+  "id_cat": "category-1898",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Tube d'évacuation PVC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc/tube-d-evacuation-pvc",
+  "id_cat": "category-5283",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/raccord-pvc"
+},
+{
+  "name_cat": "Salle de Bain",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain",
+  "id_cat": "category-5050",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Mitigeur salle de bain",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/mitigeur-salle-de-bain",
+  "id_cat": "category-1853",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Flexible de douche",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/flexible-de-douche",
+  "id_cat": "category-1875",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Douchette",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/douchette",
+  "id_cat": "category-1874",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Sécurité",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/securite",
+  "id_cat": "category-1855",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Accessoire de salle de bain",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/accessoire-de-salle-de-bain",
+  "id_cat": "category-1854",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Barre - Support",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/barre-support",
+  "id_cat": "category-1876",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Vasque",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/vasque",
+  "id_cat": "category-5285",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Baignoire",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/baignoire",
+  "id_cat": "category-5284",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Colonne de douche",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/colonne-de-douche",
+  "id_cat": "category-5309",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Receveur de douche",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/receveur-de-douche",
+  "id_cat": "category-5312",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Meuble sous lavabo",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain/meuble-sous-lavabo",
+  "id_cat": "category-5314",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/salle-de-bain"
+},
+{
+  "name_cat": "Traitement eau et gaz",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz",
+  "id_cat": "category-5052",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Robinetterie gaz",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/robinetterie-gaz",
+  "id_cat": "category-1862",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Etanchéité",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/etancheite",
+  "id_cat": "category-1889",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Joints",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/joints",
+  "id_cat": "category-1888",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Machine à laver",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/machine-a-laver",
+  "id_cat": "category-1887",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Robinetterie bâtiment",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/robinetterie-batiment",
+  "id_cat": "category-1886",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Accessoires de filtration",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/accessoires-de-filtration",
+  "id_cat": "category-5286",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Flexible d'alimentation",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/flexible-d-alimentation",
+  "id_cat": "category-5287",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Tuyau à gaz",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz/tuyau-a-gaz",
+  "id_cat": "category-5288",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/traitement-eau-et-gaz"
+},
+{
+  "name_cat": "Vidage",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage",
+  "id_cat": "category-5053",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Siphon cuisine",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage/siphon-cuisine",
+  "id_cat": "category-1881",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage"
+},
+{
+  "name_cat": "Bonde cuisine",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage/bonde-cuisine",
+  "id_cat": "category-1882",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage"
+},
+{
+  "name_cat": "Accessoire vidage",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage/accessoire-vidage",
+  "id_cat": "category-1883",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage"
+},
+{
+  "name_cat": "Siphon salle de bain",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage/siphon-salle-de-bain",
+  "id_cat": "category-1884",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage"
+},
+{
+  "name_cat": "Bonde salle de bain",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage/bonde-salle-de-bain",
+  "id_cat": "category-1885",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/vidage"
+},
+{
+  "name_cat": "WC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc",
+  "id_cat": "category-5054",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire"
+},
+{
+  "name_cat": "Pièce détachée",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/piece-detachee",
+  "id_cat": "category-1858",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Abattant",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/abattant",
+  "id_cat": "category-1857",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Réservoir",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/reservoir",
+  "id_cat": "category-1859",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Pipe - Sortie WC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/pipe-sortie-wc",
+  "id_cat": "category-1860",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Décoration WC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/decoration-wc",
+  "id_cat": "category-1877",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Mécanisme de chasse",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/mecanisme-de-chasse",
+  "id_cat": "category-1878",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Robinet flotteur",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/robinet-flotteur",
+  "id_cat": "category-1879",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "WC à poser",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/wc-a-poser",
+  "id_cat": "category-5289",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Bâti-support WC",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/bati-support-wc",
+  "id_cat": "category-5324",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Urinoir",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/urinoir",
+  "id_cat": "category-5315",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "WC suspendu",
+  "url_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc/wc-suspendu",
+  "id_cat": "category-5325",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/plomberie-sanitaire/wc"
+},
+{
+  "name_cat": "Domotique-Sécurité",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite",
+  "id_cat": "category-5008",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Automatisme",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme",
+  "id_cat": "category-5009",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite"
+},
+{
+  "name_cat": "Portail",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme/portail",
+  "id_cat": "category-1594",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/automatisme"
+},
+{
+  "name_cat": "Accessoires automatisme",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme/accessoires-automatisme",
+  "id_cat": "category-1597",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/automatisme"
+},
+{
+  "name_cat": "Garage",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme/garage",
+  "id_cat": "category-1596",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/automatisme"
+},
+{
+  "name_cat": "Volet-Fenêtre",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme/volet-fenetre",
+  "id_cat": "category-1595",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/automatisme"
+},
+{
+  "name_cat": "Passerelle",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/automatisme/passerelle",
+  "id_cat": "category-5432",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/automatisme"
+},
+{
+  "name_cat": "Protection incendie",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie",
+  "id_cat": "category-5010",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite"
+},
+{
+  "name_cat": "Autres détecteurs",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie/autres-detecteurs",
+  "id_cat": "category-1639",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie"
+},
+{
+  "name_cat": "Détecteur de fumée",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie/detecteur-de-fumee",
+  "id_cat": "category-1604",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie"
+},
+{
+  "name_cat": "Détecteur de monoxyde",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie/detecteur-de-monoxyde",
+  "id_cat": "category-1605",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie"
+},
+{
+  "name_cat": "Extincteur",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie/extincteur",
+  "id_cat": "category-1606",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/protection-incendie"
+},
+{
+  "name_cat": "Sécurité domicile",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile",
+  "id_cat": "category-5011",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite"
+},
+{
+  "name_cat": "Serrure électrique",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/serrure-electrique",
+  "id_cat": "category-1602",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Carillon",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/carillon",
+  "id_cat": "category-1601",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Interphone",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/interphone",
+  "id_cat": "category-1600",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Caméra-Videosurveillance",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/camera-videosurveillance",
+  "id_cat": "category-1599",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Système d'alarme",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/systeme-d-alarme",
+  "id_cat": "category-1598",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Accessoires système d'alarmes",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/accessoires-systeme-d-alarmes",
+  "id_cat": "category-1603",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Protection anti-inondation",
+  "url_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile/protection-anti-inondation",
+  "id_cat": "category-5322",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/domotique-securite/securite-domicile"
+},
+{
+  "name_cat": "Habitat",
+  "url_cat": "https://www.centrale-brico.com/habitat",
+  "id_cat": "category-5027",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Bazar",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar",
+  "id_cat": "category-5028",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/habitat"
+},
+{
+  "name_cat": "Petit électro-ménager",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/petit-electro-menager",
+  "id_cat": "category-2046",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Autour du linge",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/autour-du-linge",
+  "id_cat": "category-2047",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Bougies",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/bougies",
+  "id_cat": "category-2048",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Enfants et fêtes",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/enfants-et-fetes",
+  "id_cat": "category-2054",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Tapis",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/tapis",
+  "id_cat": "category-5259",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Couverture et Plaid",
+  "url_cat": "https://www.centrale-brico.com/habitat/bazar/couverture-et-plaid",
+  "id_cat": "category-5274",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/bazar"
+},
+{
+  "name_cat": "Cuisine",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine",
+  "id_cat": "category-5029",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/habitat"
+},
+{
+  "name_cat": "Poêle - casserole",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/poele-casserole",
+  "id_cat": "category-2091",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Conservation",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/conservation",
+  "id_cat": "category-2044",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Cave et chai",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/cave-et-chai",
+  "id_cat": "category-2053",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Ciseaux de cuisine",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/ciseaux-de-cuisine",
+  "id_cat": "category-2003",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Couteaux de cuisine",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/couteaux-de-cuisine",
+  "id_cat": "category-2004",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Ustensile de cuisine",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/ustensile-de-cuisine",
+  "id_cat": "category-2005",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Cuisinière",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/cuisiniere",
+  "id_cat": "category-5320",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Evier de cuisine",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/evier-de-cuisine",
+  "id_cat": "category-5323",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Poubelle",
+  "url_cat": "https://www.centrale-brico.com/habitat/cuisine/poubelle",
+  "id_cat": "category-5157",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/cuisine"
+},
+{
+  "name_cat": "Loisir créatif",
+  "url_cat": "https://www.centrale-brico.com/habitat/loisir-creatif",
+  "id_cat": "category-5030",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/habitat"
+},
+{
+  "name_cat": "Perforation",
+  "url_cat": "https://www.centrale-brico.com/habitat/loisir-creatif/perforation",
+  "id_cat": "category-2009",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/loisir-creatif"
+},
+{
+  "name_cat": "Coupe-Découpe",
+  "url_cat": "https://www.centrale-brico.com/habitat/loisir-creatif/coupe-decoupe",
+  "id_cat": "category-2007",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/loisir-creatif"
+},
+{
+  "name_cat": "Décoration",
+  "url_cat": "https://www.centrale-brico.com/habitat/loisir-creatif/decoration",
+  "id_cat": "category-2008",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/loisir-creatif"
+},
+{
+  "name_cat": "Peinture",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture",
+  "id_cat": "category-5031",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/habitat"
+},
+{
+  "name_cat": "Aérosol",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/aerosol",
+  "id_cat": "category-2042",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Entretien du bois",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/entretien-du-bois",
+  "id_cat": "category-5236",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Lasure cire pour meubles",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/lasure-cire-pour-meubles",
+  "id_cat": "category-5237",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Peinture naturelle",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/peinture-naturelle",
+  "id_cat": "category-2014",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Peinture",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/peinture",
+  "id_cat": "category-2013",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Produits de finition bois",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/produits-de-finition-bois",
+  "id_cat": "category-2011",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Panneau de revêtement",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/panneau-de-revetement",
+  "id_cat": "category-5244",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Peinture bois",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/peinture-bois",
+  "id_cat": "category-5275",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Peinture et traitement d'étanchéité",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/peinture-et-traitement-d-etancheite",
+  "id_cat": "category-5276",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Peinture métal et antirouille",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/peinture-metal-et-antirouille",
+  "id_cat": "category-5277",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Sous-couche",
+  "url_cat": "https://www.centrale-brico.com/habitat/peinture/sous-couche",
+  "id_cat": "category-5278",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/habitat/peinture"
+},
+{
+  "name_cat": "Jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin",
+  "id_cat": "category-5062",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Arrosage-Pompage",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage",
+  "id_cat": "category-5063",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Arrosage enterré",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/arrosage-enterre",
+  "id_cat": "category-5064",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Micro-irrigation",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/micro-irrigation",
+  "id_cat": "category-5066",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Récupérateur d'eau",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/recuperateur-d-eau",
+  "id_cat": "category-5195",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Programmateur d'arrosage",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/programmateur-d-arrosage",
+  "id_cat": "category-5068",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Pistolet et lance d'arrosage",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/pistolet-et-lance-d-arrosage",
+  "id_cat": "category-5201",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Pompe et accessoire pour pompe",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/pompe-et-accessoire-pour-pompe",
+  "id_cat": "category-5067",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Raccord d'arrosage -  robinet et vanne",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/raccord-d-arrosage-robinet-et-vanne",
+  "id_cat": "category-5069",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Tuyau -  enrouleur de tuyau et arroseur",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/tuyau-enrouleur-de-tuyau-et-arroseur",
+  "id_cat": "category-5065",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Arrosage premium TORO",
+  "url_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage/arrosage-premium-toro",
+  "id_cat": "category-5227",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/arrosage-pompage"
+},
+{
+  "name_cat": "Outils à main",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main",
+  "id_cat": "category-5110",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Débroussailler -  tondre (gazon -  herbes -  etc.)",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/debroussailler-tondre-gazon-herbes",
+  "id_cat": "category-5114",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Tailler (arbres -  haies -  buissons -  etc.)",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/tailler-arbres-haies-buissons",
+  "id_cat": "category-5112",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Entretien du jardin (déblayer -  nettoyer -  etc.)",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/entretien-du-jardin-deblayer-nettoyer",
+  "id_cat": "category-5113",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Scier -  débiter le bois",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/scier-debiter-le-bois",
+  "id_cat": "category-5115",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Planter et travailler le sol",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/planter-et-travailler-le-sol",
+  "id_cat": "category-5116",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Pulvérisateur et arrosoir",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/pulverisateur-et-arrosoir",
+  "id_cat": "category-5092",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Manches et entretien des outils de jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-a-main/manches-et-entretien-des-outils-de-jardin",
+  "id_cat": "category-5111",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-a-main"
+},
+{
+  "name_cat": "Outils motorisés",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises",
+  "id_cat": "category-5103",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Coupe des haies",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/coupe-des-haies",
+  "id_cat": "category-5104",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Coupe du bois",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/coupe-du-bois",
+  "id_cat": "category-5105",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Coupe du gazon",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/coupe-du-gazon",
+  "id_cat": "category-5106",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Culture-Entretien du sol",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/culture-entretien-du-sol",
+  "id_cat": "category-5107",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Déchets verts-Nettoyage",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/dechets-verts-nettoyage",
+  "id_cat": "category-5108",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Accessoires et consommables outils motorisés",
+  "url_cat": "https://www.centrale-brico.com/jardin/outils-motorises/accessoires-et-consommables-outils-motorises",
+  "id_cat": "category-5109",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/outils-motorises"
+},
+{
+  "name_cat": "Serres-Abris-Garages",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages",
+  "id_cat": "category-5124",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Abris pour animaux",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages/abris-pour-animaux",
+  "id_cat": "category-5126",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages"
+},
+{
+  "name_cat": "Serre",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages/serre",
+  "id_cat": "category-5130",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages"
+},
+{
+  "name_cat": "Abri -  garage et carport",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages/abri-garage-et-carport",
+  "id_cat": "category-5125",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages"
+},
+{
+  "name_cat": "Tente et tonnelle",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages/tente-et-tonnelle",
+  "id_cat": "category-5131",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages"
+},
+{
+  "name_cat": "Pergola -  kiosque et marquise",
+  "url_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages/pergola-kiosque-et-marquise",
+  "id_cat": "category-5427",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/serres-abris-garages"
+},
+{
+  "name_cat": "Mobilier et Loisirs",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs",
+  "id_cat": "category-5094",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Hamac et balancelle",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/hamac-et-balancelle",
+  "id_cat": "category-5098",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "Jeux d'extérieur et de jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/jeux-d-exterieur-et-de-jardin",
+  "id_cat": "category-5102",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "Mobilier de jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/mobilier-de-jardin",
+  "id_cat": "category-5099",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "Parasol et voile d'ombrage",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/parasol-et-voile-d-ombrage",
+  "id_cat": "category-5210",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "Rangement",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/rangement",
+  "id_cat": "category-5216",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "plateau de table",
+  "url_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs/plateau-de-table",
+  "id_cat": "category-5436",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/mobilier-et-loisirs"
+},
+{
+  "name_cat": "Piscines",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines",
+  "id_cat": "category-5117",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Kit Piscine",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines/kit-piscine",
+  "id_cat": "category-5120",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/piscines"
+},
+{
+  "name_cat": "Baignade et jeux",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines/baignade-et-jeux",
+  "id_cat": "category-5119",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/piscines"
+},
+{
+  "name_cat": "Liner Bâche-Chauffage",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines/liner-bache-chauffage",
+  "id_cat": "category-5121",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/piscines"
+},
+{
+  "name_cat": "Accessoires piscines",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines/accessoires-piscines",
+  "id_cat": "category-5118",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/piscines"
+},
+{
+  "name_cat": "Nettoyage piscine",
+  "url_cat": "https://www.centrale-brico.com/jardin/piscines/nettoyage-piscine",
+  "id_cat": "category-5122",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/piscines"
+},
+{
+  "name_cat": "Pot -  décoration et occultation",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation",
+  "id_cat": "category-5078",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Clôture -  grillage et occultation",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation/cloture-grillage-et-occultation",
+  "id_cat": "category-5084",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation"
+},
+{
+  "name_cat": "Pot de fleurs -  jardinière et composteur",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation/pot-de-fleurs-jardiniere-et-composteur",
+  "id_cat": "category-5079",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation"
+},
+{
+  "name_cat": "Chauffage extérieur et brumisateur",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation/chauffage-exterieur-et-brumisateur",
+  "id_cat": "category-5085",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation"
+},
+{
+  "name_cat": "Décoration de jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation/decoration-de-jardin",
+  "id_cat": "category-5081",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation"
+},
+{
+  "name_cat": "Eclairage jardin",
+  "url_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation/eclairage-jardin",
+  "id_cat": "category-5083",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/pot-decoration-et-occultation"
+},
+{
+  "name_cat": "Jardinage-cultures",
+  "url_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures",
+  "id_cat": "category-5086",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Protection des cultures et des plantations",
+  "url_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures/protection-des-cultures-et-des-plantations",
+  "id_cat": "category-5090",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures"
+},
+{
+  "name_cat": "Vêtement et accessoires du jardinier",
+  "url_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures/vetement-et-accessoires-du-jardinier",
+  "id_cat": "category-5089",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures"
+},
+{
+  "name_cat": "Semences-Engrais-Epandeurs",
+  "url_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures/semences-engrais-epandeurs",
+  "id_cat": "category-5093",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/jardinage-cultures"
+},
+{
+  "name_cat": "Barbecue -  plancha et cuisine d'extérieur",
+  "url_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur",
+  "id_cat": "category-5070",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/jardin"
+},
+{
+  "name_cat": "Barbecue",
+  "url_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur/barbecue",
+  "id_cat": "category-5073",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur"
+},
+{
+  "name_cat": "Plancha",
+  "url_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur/plancha",
+  "id_cat": "category-5075",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur"
+},
+{
+  "name_cat": "Ustensile et accessoire pour barbecue",
+  "url_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur/ustensile-et-accessoire-pour-barbecue",
+  "id_cat": "category-5071",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur"
+},
+{
+  "name_cat": "Cuisine d'extérieur",
+  "url_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur/cuisine-d-exterieur",
+  "id_cat": "category-5329",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/jardin/barbecue-plancha-et-cuisine-d-exterieur"
+},
+{
+  "name_cat": "Bonnes affaires",
+  "url_cat": "https://www.centrale-brico.com/bonnes-affaires",
+  "id_cat": "category-5186",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com"
+},
+{
+  "name_cat": "Produits reconditionnés",
+  "url_cat": "https://www.centrale-brico.com/bonnes-affaires/produits-reconditionnes",
+  "id_cat": "category-5188",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/bonnes-affaires"
+},
+{
+  "name_cat": "Déstockage",
+  "url_cat": "https://www.centrale-brico.com/bonnes-affaires/destockage",
+  "id_cat": "category-5192",
+  "is_page": 0,
+  "parent_cat": "https://www.centrale-brico.com/bonnes-affaires"
+},
+{
+  "name_cat": "Déstockage Bricolage",
+  "url_cat": "https://www.centrale-brico.com/bonnes-affaires/destockage/destockage-bricolage",
+  "id_cat": "category-5193",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/bonnes-affaires/destockage"
+},
+{
+  "name_cat": "Déstockage Jardin",
+  "url_cat": "https://www.centrale-brico.com/bonnes-affaires/destockage/destockage-jardin",
+  "id_cat": "category-5194",
+  "is_page": 1,
+  "parent_cat": "https://www.centrale-brico.com/bonnes-affaires/destockage"
+}
+]
