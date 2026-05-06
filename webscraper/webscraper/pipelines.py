@@ -250,3 +250,27 @@ class DatabasePipeline:
             raise DropItem(f"Erreur base de données: {e}")
  
         return item
+    
+    @staticmethod
+    def _clean_price(raw: str) -> str | None:
+        """
+        Normalise une chaîne de prix issue de Centrale Brico.
+
+        Formats gérés :
+          "24€12"   → "24.12"   (€ = séparateur décimal)
+          "24,12 €" → "24.12"   (format français standard)
+          "24.12"   → "24.12"   (déjà normalisé)
+        """
+        if not raw:
+            return None
+        cleaned = raw.strip()
+        # ① "24€12" → le € est le séparateur décimal
+        cleaned = cleaned.replace("€", ".")
+        # ② Supprime tout sauf chiffres, virgule et point
+        cleaned = re.sub(r"[^\d,.]", "", cleaned)
+        # ③ Virgule décimale française → point
+        cleaned = cleaned.replace(",", ".")
+        # ④ Supprime doubles points et point final résiduel
+        cleaned = re.sub(r"\.{2,}", ".", cleaned)
+        cleaned = cleaned.rstrip(".")
+        return cleaned if cleaned else None

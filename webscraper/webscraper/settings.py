@@ -98,6 +98,7 @@ DATABASE = {
     'db': 'scraping_data.db',
     'categories_table': 'categories',
     'products_table': 'products'
+    "webscraper.pipelines.WebscraperPipeline": 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
