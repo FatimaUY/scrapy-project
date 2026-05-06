@@ -4,6 +4,8 @@ import re
 import hashlib
 from itemadapter import ItemAdapter
 from scrapy.exceptions import DropItem
+from webscraper.items import CategorieItem, ProductItem
+
  
  
 class DataCleaningPipeline:
@@ -100,10 +102,6 @@ class DataValidationPipeline:
                 raise DropItem("Produit sans nom")
             if not adapter.get('url_product'):
                 raise DropItem("Produit sans URL")
-            if not adapter.get('price'):
-                raise DropItem("Produit sans prix")
-            if not adapter.get('category_name'):
-                raise DropItem("Produit sans catégorie")
             if not adapter.get('id_product'):
                 # Générer un ID si manquant
                 adapter['id_product'] = self.generate_id(adapter['name_product'], adapter['url_product'])
@@ -127,32 +125,31 @@ class DuplicateRemovalPipeline:
         adapter = ItemAdapter(item)
  
         # Vérifier les doublons de catégories
-        if 'name_cat' in adapter and 'id_cat' in adapter:
+        if isinstance(item, CategorieItem):
             cat_id = adapter['id_cat']
             if cat_id in self.seen_categories:
-                spider.logger.info(f"Catégorie en double ignorée: {adapter.get('name_cat', 'Unknown')}")
+                spider.logger.info(f"Catégorie en double ignorée ")
                 raise DropItem(f"Catégorie en double: {cat_id}")
             self.seen_categories.add(cat_id)
         
         # Vérifier les doublons de produits
-        if 'name_product' in adapter and 'id_product' in adapter:
+        elif isinstance(item, ProductItem):
             product_id = adapter['id_product']
             if product_id in self.seen_products:
-                spider.logger.info(f"Produit en double ignoré: {adapter.get('name_product', 'Unknown')}")
+                spider.logger.info(f"Produit en double ignoré ")
                 raise DropItem(f"Produit en double: {product_id}")
             self.seen_products.add(product_id)
  
         return item
  
- 
 class DatabasePipeline:
     """Pipeline pour stocker les données dans la base de données SQLite"""
- 
+
     def __init__(self, sqlite_db, sqlite_table_categories, sqlite_table_products):
         self.sqlite_db = sqlite_db
         self.sqlite_table_categories = sqlite_table_categories
         self.sqlite_table_products = sqlite_table_products
- 
+
     @classmethod
     def from_crawler(cls, crawler):
         db_settings = crawler.settings.getdict("DATABASE")
@@ -162,29 +159,21 @@ class DatabasePipeline:
                 'categories_table': 'categories',
                 'products_table': 'products'
             }
- 
         return cls(
             sqlite_db=db_settings['db'],
             sqlite_table_categories=db_settings['categories_table'],
             sqlite_table_products=db_settings['products_table']
         )
- 
+
     def open_spider(self, spider):
-        """Initialiser la connexion à la base de données"""
         self.connection = sqlite3.connect(self.sqlite_db)
         self.cursor = self.connection.cursor()
- 
-        # Créer les tables si elles n'existent pas
         self.create_tables()
- 
+
     def close_spider(self, spider):
-        """Fermer la connexion à la base de données"""
         self.connection.close()
- 
+
     def create_tables(self):
-        """Créer les tables catégories et produits"""
- 
-        # Table des catégories
         self.cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS {self.sqlite_table_categories} (
                 id_cat TEXT PRIMARY KEY,
@@ -196,34 +185,31 @@ class DatabasePipeline:
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
         ''')
- 
-        # Table des produits avec clé étrangère vers categories
+
         self.cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS {self.sqlite_table_products} (
                 id_product TEXT PRIMARY KEY,
                 name_product TEXT NOT NULL,
-                price REAL NOT NULL,
+                price REAL,
                 url_product TEXT NOT NULL,
                 id_cat TEXT NOT NULL,
                 category_name TEXT NOT NULL,
-                category_url TEXT,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 FOREIGN KEY (id_cat) REFERENCES {self.sqlite_table_categories} (id_cat)
             )
         ''')
- 
+
         self.connection.commit()
- 
+
     def process_item(self, item, spider):
-        """Stocker l'item dans la base de données"""
         adapter = ItemAdapter(item)
- 
+        spider.logger.info(f"ITEM RECU: {dict(adapter)}")
+
         try:
-            # Insérer ou mettre à jour une catégorie
-            if 'name_cat' in adapter:
+            if adapter.get('name_cat') is not None:
                 self.cursor.execute(f'''
-                    INSERT OR REPLACE INTO {self.sqlite_table_categories} 
+                    INSERT OR REPLACE INTO {self.sqlite_table_categories}
                     (id_cat, name_cat, url_cat, parent_cat, is_page, updated_at)
                     VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                 ''', (
@@ -233,52 +219,26 @@ class DatabasePipeline:
                     adapter.get('parent_cat'),
                     adapter.get('is_page', 0)
                 ))
- 
-            # Insérer ou mettre à jour un produit
-            if 'name_product' in adapter:
+
+            if adapter.get('name_product') is not None:
                 self.cursor.execute(f'''
-                    INSERT OR REPLACE INTO {self.sqlite_table_products} 
-                    (id_product, name_product, price, url_product, id_cat, category_name, category_url, updated_at)
-                    VALUES (?, ?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+                    INSERT OR REPLACE INTO {self.sqlite_table_products}
+                    (id_product, name_product, price, url_product, id_cat, category_name, updated_at)
+                    VALUES (?, ?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
                 ''', (
                     adapter.get('id_product'),
                     adapter.get('name_product'),
                     adapter.get('price'),
                     adapter.get('url_product'),
-                    adapter.get('id_cat'),  # Ajout de la clé étrangère
+                    adapter.get('id_cat'),
                     adapter.get('category_name'),
-                    adapter.get('category_url')
                 ))
- 
-            self.connection.commit()
-            spider.logger.info(f"Item stocké dans la base de données: {adapter.get('name_cat', adapter.get('name_product', 'Unknown'))}")
- 
-        except sqlite3.Error as e:
-            spider.logger.error(f"Erreur lors du stockage dans la base de données: {e}")
-            raise DropItem(f"Erreur base de données: {e}")
- 
-        return item
-    
-    @staticmethod
-    def _clean_price(raw: str) -> str | None:
-        """
-        Normalise une chaîne de prix issue de Centrale Brico.
 
-        Formats gérés :
-          "24€12"   → "24.12"   (€ = séparateur décimal)
-          "24,12 €" → "24.12"   (format français standard)
-          "24.12"   → "24.12"   (déjà normalisé)
-        """
-        if not raw:
-            return None
-        cleaned = raw.strip()
-        # ① "24€12" → le € est le séparateur décimal
-        cleaned = cleaned.replace("€", ".")
-        # ② Supprime tout sauf chiffres, virgule et point
-        cleaned = re.sub(r"[^\d,.]", "", cleaned)
-        # ③ Virgule décimale française → point
-        cleaned = cleaned.replace(",", ".")
-        # ④ Supprime doubles points et point final résiduel
-        cleaned = re.sub(r"\.{2,}", ".", cleaned)
-        cleaned = cleaned.rstrip(".")
-        return cleaned if cleaned else None
+            self.connection.commit()
+            spider.logger.info("COMMIT OK")
+
+        except sqlite3.Error as e:
+            spider.logger.error(f"DB ERROR: {e}")
+            raise DropItem(str(e))
+
+        return item
