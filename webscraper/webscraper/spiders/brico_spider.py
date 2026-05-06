@@ -1,11 +1,32 @@
 import scrapy
 from webscraper.items import CategorieItem
+import datetime
 
 
 class BricoSpiderSpider(scrapy.Spider):
+    
     name = "brico_spider"
     allowed_domains = ["centrale-brico.com"]
     start_urls = ["https://www.centrale-brico.com"]
+
+    today = datetime.date.today()
+
+
+    custom_settings = {
+        "FEEDS": {
+            f"output/categories_{today}.csv": {
+                "format": "csv",
+                "encoding": "utf-8",
+                "overwrite": True,
+            },
+            f"output/categories_{today}.json": {
+                "format": "json",
+                "encoding": "utf-8",
+                "overwrite": True,
+                "indent": 2,
+            },
+        }
+    }
 
     def __init__(self):
         self.seen_ids = set()

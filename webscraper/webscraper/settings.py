@@ -6,6 +6,8 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+import datetime
+
 
 BOT_NAME = "webscraper"
 
@@ -14,13 +16,6 @@ NEWSPIDER_MODULE = "webscraper.spiders"
 
 ADDONS = {}
 
-FEEDS = {
-    'categories.csv': {
-        'format': 'csv',
-        'encoding': 'utf8',
-        'overwrite': True,
-    },
-}
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "webscraper (+http://www.yourdomain.com)"
