@@ -43,6 +43,19 @@ class DataCleaningPipeline:
 
         # Supprimer les caractères non numériques sauf . et ,
         cleaned = re.sub(r'[^\d.,]', '', str(price_str))
+        #Nettoyage
+        if adapter.get("name_cat"):
+            adapter["name_cat"] = adapter["name_cat"].strip()
+            adapter["name_cat"] = adapter["name_cat"].replace(",", " - ")
+            adapter["name_cat"] = adapter["name_cat"].replace('"', "")
+
+
+        if isinstance(item, CategorieItem):
+            if not item["url_cat"].startswith("https://"):
+                raise DropItem(f"URL invalide: {item['url_cat']}")
+
+        if "price_product" in item:
+            item["price_product"] = self._clean_price(item.get("price_product"))
 
         # Remplacer la virgule par point pour la conversion
         cleaned = cleaned.replace(',', '.')
