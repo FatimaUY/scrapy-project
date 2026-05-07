@@ -1,9 +1,9 @@
 """
-Script utilitaire de récupération de la page d'accueil de Centrale Brico.
- 
-Effectue une requête HTTP GET sur ``https://www.centrale-brico.com/`` et
-sauvegarde le contenu HTML brut de la réponse dans le fichier ``page.html``
-pour inspection locale.
+Utilitary script to fetch the homepage of Centrale Brico.
+
+Performs an HTTP GET request to ``https://www.centrale-brico.com/`` 
+and saves the raw HTML content of the response into the file ``page.html``
+for local inspection.
 """
 
 import requests

@@ -4,11 +4,11 @@ import subprocess
 
 
 """
-Module de déclenchement des spiders Scrapy du projet webscraper.
- 
-Fournit un point d'entrée en ligne de commande permettant de lancer
-le spider de catégories, le spider de produits, ou les deux à la suite,
-en créant automatiquement le répertoire de logs associé à chaque exécution.
+Starting point for running Scrapy spiders in the webscraper project.
+
+Provides a command-line entry point to run either 
+the category spider, the product spider, or both in sequence, 
+while automatically creating the associated log directory for each run.
  
 Usage ::
  

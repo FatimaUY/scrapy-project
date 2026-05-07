@@ -9,10 +9,9 @@
 
 
 """
-Module de configuration du projet Scrapy webscraper.
- 
-Définit les paramètres globaux du bot : identité, politesse, délais,
-pipelines actifs, flux d'exportation CSV et connexion à la base de données SQLite.
+Module for configuring the Scrapy project webscraper.
+Defines global bot settings: identity, politeness, delays, 
+active pipelines, CSV export feeds, and SQLite database connection.
 """
 
 import datetime

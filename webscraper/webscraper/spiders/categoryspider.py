@@ -1,9 +1,9 @@
 """
-Module du spider de scraping des catégories Centrale Brico.
- 
-Parcourt le menu de navigation principal de ``www.centrale-brico.com``
-et produit des :class:`~webscraper.items.CategorieItem` pour chaque
-catégorie et sous-catégorie détectée, en conservant la hiérarchie parente.
+Module of the category spider for Centrale Brico scraping.
+
+Crawls the main navigation menu of ``www.centrale-brico.com`` 
+and produces :class:`~webscraper.items.CategorieItem` 
+for each detected category and subcategory, while preserving the parent-child hierarchy.
 """
 import scrapy
 from webscraper.items import CategorieItem
@@ -12,14 +12,13 @@ import datetime
 
 class BricoSpiderSpider(scrapy.Spider):
     """
-    Spider d'extraction de l'arborescence des catégories de ``centrale-brico.com``.
- 
-    Analyse récursivement le menu principal pour construire un arbre de catégories.
-    Chaque catégorie est exportée au format CSV et JSON dans le répertoire ``output/``,
-    avec un nom de fichier horodaté à la date d'exécution.
- 
-    L'attribut ``is_page`` vaut ``1`` pour les catégories feuilles (sans sous-menu)
-    et ``0`` pour les nœuds intermédiaires.
+    Extraction spider for the category hierarchy of ``centrale-brico.com``.
+    
+    Recursively parses the main menu to build a category tree.
+    Each category is exported in CSV and JSON format in the ``output/`` directory,
+    with a timestamped filename based on the execution date.
+    The ``is_page`` attribute is set to ``1`` for leaf categories (without sub-menu)
+    and ``0`` for intermediate nodes.
     """
 
     
@@ -48,45 +47,41 @@ class BricoSpiderSpider(scrapy.Spider):
 
     def __init__(self):
         """
-        Initialise le spider avec les structures de suivi des catégories déjà vues.
- 
-        ``seen_ids`` évite de traiter deux fois le même nœud de catégorie.
-        ``id_to_url`` permet de retrouver l'URL d'une catégorie parente à partir
-        de son identifiant HTML.
+        Initialize the spider with tracking structures for seen categories.
+        
+        ``seen_ids`` prevents processing the same category node twice.
+        ``id_to_url`` allows retrieving the URL of a parent category from its HTML identifier.
         """
         self.seen_ids = set()
         self.id_to_url = {} 
 
     def parse(self, response):
         """
-        Analyse la page d'accueil et lance la récursion sur les catégories du menu principal.
- 
-        :param response: La réponse HTTP de la page d'accueil.
-        :return: Un générateur de :class:`~webscraper.items.CategorieItem`.
+        Analyzes the homepage and starts recursion on the main menu categories.
+        
+        :param response: The HTTP response of the homepage.
+        :return: A generator of :class:`~webscraper.items.CategorieItem`.
         """
 
         categories = response.css('ul.menu-home > li.category')
         yield from self.parse_categories(categories, parent=response.url)
 
     def parse_categories(self, categories, parent):
-        """
-        Parcourt récursivement une liste de catégories HTML et produit les items correspondants.
- 
-        Pour chaque catégorie :
- 
-        - Si elle possède un sous-menu, ``is_page`` est mis à ``0`` et la méthode
-          s'appelle récursivement sur les sous-catégories en passant l'identifiant
-          courant comme parent.
-        - Si elle est une feuille (pas de sous-menu), ``is_page`` est mis à ``1``.
- 
-        Les catégories dont l'identifiant a déjà été traité (présent dans ``seen_ids``)
-        sont ignorées pour éviter les doublons.
- 
-        :param categories: Sélecteur Scrapy sur les éléments ``<li class="category">``
-            à traiter.
-        :param parent: Identifiant ou URL de la catégorie parente, utilisé pour
-            renseigner le champ ``parent_cat``.
-        :return: Un générateur de :class:`~webscraper.items.CategorieItem`.
+        """    
+        Browses recursively a list of HTML category elements and produces the corresponding items.
+        
+        For each category:
+        
+        - If it has a sub-menu, ``is_page`` is set to ``0`` and the method calls itself
+          recursively on the sub-categories, passing the current identifier as parent.
+        - If it is a leaf (no sub-menu), ``is_page`` is set to ``1``.
+        
+        Categories whose identifier has already been processed (present in ``seen_ids``)
+        are ignored to avoid duplicates.
+        
+        :param categories: Scrapy selector on the ``<li class="category">`` elements to process.
+        :param parent: Identifier or URL of the parent category, used to fill the ``parent_cat`` field.
+        :return: A generator of :class:`~webscraper.items.CategorieItem`.
         """
 
         for cat in categories:
