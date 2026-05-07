@@ -56,15 +56,32 @@ class DataCleaningPipeline:
  
     def clean_price(self, price_str):
         """
-        Clean and normalize a price string in the Centrale Brico format.
-        Handles the following formats:
-        - ``"49€27"`` → ``49.27``  (the € symbol replaces the decimal separator)
-        - ``"24,12 €"`` → ``24.12`` (French decimal format)
-        - ``"24.12"``  → ``24.12`` (already normalized)
-        
-        :param price_str: The raw string representing the price.
-        :return: The price as a float, or ``None`` if conversion fails.
-        :rtype: float | None
+        Normalize a raw price string into a float value.
+
+        Handles three price formats commonly found on French e-commerce sites
+        (PrestaShop), determined by the characters present in the string:
+
+        Case 1 — Euro sign as decimal separator (site-specific format):
+            The € symbol appears between two digits, acting as the decimal
+            separator between euros and cents.
+            Examples : "24€12" -> 24.12 | "1 244€90" -> 1244.90
+
+        Case 2 — European format with thousands dot and decimal comma:
+            A comma is present, meaning dots are thousands separators
+            and the comma is the decimal separator.
+            Examples : "1.667,62 €" -> 1667.62 | "24,12 €" -> 24.12
+
+        Case 3 — Dot ambiguity resolution (thousands vs decimal):
+            No comma is present. A dot followed by exactly 3 digits is
+            treated as a thousands separator; otherwise it is a decimal.
+            Examples : "1.667" -> 1667.0 | "24.12" -> 24.12
+
+        Args:
+            price_str (str | None): Raw price string extracted from the page.
+
+        Returns:
+            float | None: Normalized price as a float, or None if the input
+            is empty, contains no recognisable number, or cannot be converted.
         """
 
         if not price_str:
