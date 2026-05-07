@@ -72,23 +72,24 @@ class DataCleaningPipeline:
 
         cleaned = str(price_str).strip()
 
-     
-        cleaned = cleaned.replace("€", ".")
+        if re.search(r'\d€\d', cleaned):
+            cleaned = re.sub(r'(\d)€(\d)', r'\1.\2', cleaned)  
+            cleaned = re.sub(r'[^\d.]', '', cleaned)
 
-        cleaned = re.sub(r'[^\d.,]', '', cleaned)
+        elif ',' in cleaned:
+            cleaned = re.sub(r'[^\d.,]', '', cleaned)
+            cleaned = cleaned.replace('.', '')           
+            cleaned = cleaned.replace(',', '.')          
 
-        cleaned = cleaned.replace(',', '.')
+        else:
+            cleaned = re.sub(r'[^\d.]', '', cleaned)
+            if re.fullmatch(r'\d{1,3}(\.\d{3})+', cleaned):
+                cleaned = cleaned.replace('.', '')       
 
-        cleaned = re.sub(r'\.{2,}', '.', cleaned)
-        cleaned = cleaned.rstrip('.')
-
-        match = re.search(r'\d+\.?\d*', cleaned)
-        if match:
-            try:
-                return float(match.group())
-            except ValueError:
-                return None
-        return None
+        try:
+            return float(cleaned)
+        except ValueError:
+            return None
  
     def clean_url(self, url):
         """
