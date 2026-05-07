@@ -5,7 +5,7 @@ import datetime
 
 class BricoSpiderSpider(scrapy.Spider):
     
-    name = "brico_spider"
+    name = "categoryspider"
     allowed_domains = ["centrale-brico.com"]
     start_urls = ["https://www.centrale-brico.com"]
 

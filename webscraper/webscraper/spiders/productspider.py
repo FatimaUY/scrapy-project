@@ -1,5 +1,5 @@
-import json
 import re
+import sqlite3
 import scrapy
 from webscraper.items import ProductItem
 
@@ -30,36 +30,25 @@ class ProductSpider(scrapy.Spider):
     }
 
     async def start(self):
-        import glob
+        db_path = "scraping_data.db"
+        connection = sqlite3.connect(db_path)
+        cursor = connection.cursor()
 
-        files = sorted(glob.glob("output/categories_2026-05-06.json"))
-        if not files:
-            self.logger.error("Aucun fichier categories.json trouvé dans output/")
+        cursor.execute("SELECT id_cat, name_cat, url_cat FROM categories WHERE is_page = 1")
+        categories = cursor.fetchall()
+        connection.close()
+
+        if not categories:
+            self.logger.error("Aucune catégorie trouvée dans la base de données")
             return
 
-        cat_file = files[-1]
-        self.logger.info(f"Lecture des catégories depuis : {cat_file}")
-
-        with open(cat_file, encoding="utf-8") as f:
-            categories = json.load(f)
-
-        count = 0
-        for cat in categories:
-            if cat.get("is_page") == 1 and cat.get("url_cat"):
-                if count >= 3:
-                    break
-
-                self.logger.info(f"[CAT {count+1}] {cat['name_cat']} → {cat['url_cat']}")
-
-                yield scrapy.Request(
-                    url=cat["url_cat"],
-                    callback=self.parse,
-                    cb_kwargs={
-                        "category": cat["name_cat"],
-                        "id_cat": cat["id_cat"],
-                    },
-                )
-                count += 1
+        for count, (id_cat, name_cat, url_cat) in enumerate(categories):
+            self.logger.info(f"[CAT {count+1}] {name_cat} → {url_cat}")
+            yield scrapy.Request(
+                url=url_cat,
+                callback=self.parse,
+                cb_kwargs={"category": name_cat, "id_cat": id_cat},
+            )
 
     def parse(self, response, category="", id_cat=None):
         if not category:
