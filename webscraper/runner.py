@@ -3,7 +3,32 @@ import sys
 import subprocess
 
 
+"""
+Starting point for running Scrapy spiders in the webscraper project.
+
+Provides a command-line entry point to run either 
+the category spider, the product spider, or both in sequence, 
+while automatically creating the associated log directory for each run.
+ 
+Usage ::
+ 
+    python runner.py [categories | products | all]
+"""
+
+
 def run_spider(spider):
+    """
+    Exécute un spider Scrapy dans un sous-processus et gère son répertoire de logs.
+ 
+    Crée le répertoire ``logs/scraping/<spider>/`` s'il n'existe pas, puis lance
+    la commande ``scrapy crawl <spider>`` via :func:`subprocess.run`.
+    En cas d'échec du sous-processus (code de retour non nul), l'erreur est
+    affichée mais l'exécution du script se poursuit.
+ 
+    :param spider: Nom du spider Scrapy à exécuter (ex. ``"categoryspider"``
+        ou ``"productspider"``).
+    """
+
     log_directory = f"logs/scraping/{spider}"
 
     if not os.path.exists(log_directory):
