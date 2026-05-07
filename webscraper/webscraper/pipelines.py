@@ -1,4 +1,12 @@
-# useful for handling different item types with a single interface
+
+"""
+Module de pipelines de traitement des items Scrapy.
+ 
+Définit la chaîne de traitement appliquée à chaque item extrait :
+nettoyage des données, validation, suppression des doublons et
+persistance dans une base de données SQLite.
+"""
+
 import sqlite3
 import re
 import hashlib
@@ -12,6 +20,14 @@ class DataCleaningPipeline:
     """Pipeline pour nettoyer les données extraites"""
  
     def process_item(self, item, spider):
+        """
+        Nettoie les champs textuels, les prix et les URLs de l'item.
+
+        :param item: L'item Scrapy à nettoyer.
+        :param spider: Le spider ayant produit l'item.
+        :return: L'item nettoyé.
+        """
+
         adapter = ItemAdapter(item)
  
         # Nettoyage des champs de texte
@@ -39,7 +55,19 @@ class DataCleaningPipeline:
         return item
  
     def clean_price(self, price_str):
-        """Nettoyer et normaliser les prix"""
+        """
+        Nettoie et normalise une chaîne de prix au format Centrale Brico.
+
+        Gère les formats suivants :
+        - ``"49€27"`` → ``49.27``  (le symbole € remplace le séparateur décimal)
+        - ``"24,12 €"`` → ``24.12`` (format décimal français)
+        - ``"24.12"``  → ``24.12`` (déjà normalisé)
+
+        :param price_str: La chaîne brute représentant le prix.
+        :return: Le prix en tant que flottant, ou ``None`` si la conversion échoue.
+        :rtype: float | None
+        """
+
         if not price_str:
             return None
 
@@ -68,7 +96,14 @@ class DataCleaningPipeline:
         return None
  
     def clean_url(self, url):
-        """Nettoyer les URLs"""
+        """
+        Nettoie une URL en supprimant les paramètres de tracking et les ancres.
+ 
+        :param url: L'URL brute à nettoyer.
+        :return: L'URL nettoyée, ou ``None`` si l'URL est vide.
+        :rtype: str | None
+        """
+
         if not url:
             return None
  
@@ -84,6 +119,19 @@ class DataValidationPipeline:
     """Pipeline pour valider les données"""
  
     def process_item(self, item, spider):
+        """
+        Valide les champs obligatoires d'un item catégorie ou produit.
+ 
+        Lève une :class:`~scrapy.exceptions.DropItem` si un champ requis est absent.
+        Génère un identifiant MD5 tronqué si le champ ``id_cat`` ou ``id_product``
+        est manquant.
+ 
+        :param item: L'item Scrapy à valider.
+        :param spider: Le spider ayant produit l'item.
+        :return: L'item validé.
+        :raises DropItem: Si un champ obligatoire est absent.
+        """
+
         adapter = ItemAdapter(item)
  
         # Validation pour les catégories
@@ -109,7 +157,14 @@ class DataValidationPipeline:
         return item
  
     def generate_id(self, name, url):
-        """Générer un ID unique à partir du nom et de l'URL"""
+        """
+        Génère un identifiant unique de 16 caractères à partir du nom et de l'URL.
+ 
+        :param name: Le nom de l'entité (catégorie ou produit).
+        :param url: L'URL de l'entité.
+        :return: Un identifiant hexadécimal de 16 caractères.
+        :rtype: str
+        """
         unique_string = f"{name}_{url}"
         return hashlib.md5(unique_string.encode()).hexdigest()[:16]
  
@@ -122,6 +177,15 @@ class DuplicateRemovalPipeline:
         self.seen_products = set()
  
     def process_item(self, item, spider):
+        """
+        Rejette l'item si son identifiant a déjà été traité.
+ 
+        :param item: L'item Scrapy à vérifier.
+        :param spider: Le spider ayant produit l'item.
+        :return: L'item si celui-ci est unique.
+        :raises DropItem: Si l'item est un doublon.
+        """
+
         adapter = ItemAdapter(item)
  
         # Vérifier les doublons de catégories
@@ -146,12 +210,30 @@ class DatabasePipeline:
     """Pipeline pour stocker les données dans la base de données SQLite"""
 
     def __init__(self, sqlite_db, sqlite_table_categories, sqlite_table_products):
+        """
+        Initialise le pipeline avec les paramètres de connexion à la base de données.
+ 
+        :param sqlite_db: Chemin vers le fichier de base de données SQLite.
+        :param sqlite_table_categories: Nom de la table des catégories.
+        :param sqlite_table_products: Nom de la table des produits.
+        """
+
         self.sqlite_db = sqlite_db
         self.sqlite_table_categories = sqlite_table_categories
         self.sqlite_table_products = sqlite_table_products
 
     @classmethod
     def from_crawler(cls, crawler):
+        """
+        Instancie le pipeline à partir de la configuration Scrapy.
+ 
+        Lit le dictionnaire ``DATABASE`` dans les settings et utilise des valeurs
+        par défaut si celui-ci est absent.
+ 
+        :param crawler: L'instance :class:`~scrapy.crawler.Crawler` courante.
+        :return: Une instance configurée de :class:`DatabasePipeline`.
+        """
+
         db_settings = crawler.settings.getdict("DATABASE")
         if not db_settings:
             db_settings = {
@@ -166,14 +248,32 @@ class DatabasePipeline:
         )
 
     def open_spider(self, spider):
+        """
+        Ouvre la connexion SQLite et crée les tables si elles n'existent pas.
+ 
+        :param spider: Le spider en cours d'ouverture.
+        """
+
         self.connection = sqlite3.connect(self.sqlite_db)
         self.cursor = self.connection.cursor()
         self.create_tables()
 
     def close_spider(self, spider):
+        """
+        Ferme proprement la connexion à la base de données.
+ 
+        :param spider: Le spider en cours de fermeture.
+        """
+
         self.connection.close()
 
     def create_tables(self):
+        """
+        Crée les tables ``categories`` et ``products`` dans la base de données si elles sont absentes.
+ 
+        La table ``products`` référence la table ``categories`` via une clé étrangère sur ``id_cat``.
+        """
+
         self.cursor.execute(f'''
             CREATE TABLE IF NOT EXISTS {self.sqlite_table_categories} (
                 id_cat TEXT PRIMARY KEY,
@@ -203,6 +303,17 @@ class DatabasePipeline:
         self.connection.commit()
 
     def process_item(self, item, spider):
+        """
+        Insère ou met à jour un item catégorie ou produit dans la base de données.
+ 
+        Utilise une clause ``INSERT OR REPLACE`` pour gérer l'idempotence.
+ 
+        :param item: L'item Scrapy à persister.
+        :param spider: Le spider ayant produit l'item.
+        :return: L'item inchangé après persistance.
+        :raises DropItem: En cas d'erreur SQLite.
+        """
+
         adapter = ItemAdapter(item)
         spider.logger.info(f"ITEM RECU: {dict(adapter)}")
 

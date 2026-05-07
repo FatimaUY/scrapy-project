@@ -6,6 +6,15 @@
 #     https://docs.scrapy.org/en/latest/topics/settings.html
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
+
+
+"""
+Module de configuration du projet Scrapy webscraper.
+ 
+Définit les paramètres globaux du bot : identité, politesse, délais,
+pipelines actifs, flux d'exportation CSV et connexion à la base de données SQLite.
+"""
+
 import datetime
 
 

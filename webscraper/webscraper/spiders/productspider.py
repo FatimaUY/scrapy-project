@@ -1,3 +1,11 @@
+"""
+Module du spider de scraping des produits Centrale Brico.
+ 
+Lit les catégories feuilles directement depuis la base de données SQLite
+``scraping_data.db`` (table ``categories``), parcourt les pages produits
+associées et produit des :class:`~webscraper.items.ProductItem` pour chaque
+produit trouvé.
+"""
 import re
 import sqlite3
 import scrapy
@@ -5,6 +13,15 @@ from webscraper.items import ProductItem
 
 
 class ProductSpider(scrapy.Spider):
+    """
+    Spider d'extraction des produits du catalogue ``www.centrale-brico.com``.
+ 
+    Charge les catégories feuilles (``is_page = 1``) depuis la base de données
+    SQLite, puis itère sur les pages de listing pour extraire le nom, le prix,
+    l'URL et la catégorie de chaque produit. La pagination est gérée
+    automatiquement via le lien ``rel="next"``.
+    """
+
     name = "productspider"
     allowed_domains = ["www.centrale-brico.com"]
 
@@ -30,6 +47,17 @@ class ProductSpider(scrapy.Spider):
     }
 
     async def start(self):
+        """
+        Point d'entrée asynchrone du spider.
+ 
+        Ouvre une connexion SQLite sur ``scraping_data.db``, récupère toutes les
+        catégories feuilles (``is_page = 1``), puis génère une
+        :class:`~scrapy.http.Request` pour chacune d'elles.
+ 
+        :raises StopIteration: Si aucune catégorie n'est trouvée en base, le spider
+            journalise une erreur et s'arrête sans émettre de requête.
+        """
+
         db_path = "scraping_data.db"
         connection = sqlite3.connect(db_path)
         cursor = connection.cursor()
@@ -51,6 +79,20 @@ class ProductSpider(scrapy.Spider):
             )
 
     def parse(self, response, category="", id_cat=None):
+        """
+        Analyse une page de listing produits et suit la pagination.
+ 
+        Si ``category`` n'est pas fourni, tente de le reconstruire depuis le fil
+        d'Ariane ou le titre ``<h1>`` de la page. Délègue l'extraction de chaque
+        carte produit à :meth:`_parse_product_card`.
+ 
+        :param response: La réponse HTTP de la page de listing.
+        :param category: Nom de la catégorie courante (transmis via ``cb_kwargs``).
+        :param id_cat: Identifiant de la catégorie courante (transmis via ``cb_kwargs``).
+        :return: Un générateur de :class:`~webscraper.items.ProductItem` et de
+            :class:`~scrapy.http.Request` pour les pages suivantes.
+        """
+
         if not category:
             breadcrumb_parts = response.css(
                 "nav.breadcrumb ol li span[itemprop='name']::text, "
@@ -88,6 +130,20 @@ class ProductSpider(scrapy.Spider):
             )
 
     def _parse_product_card(self, card, category, id_cat, response):
+        """
+        Extrait les informations d'un produit depuis sa carte HTML.
+ 
+        L'identifiant produit est recherché en priorité dans le suffixe de l'URL
+        (format ``-B\\d+``), puis dans les attributs ``data-id-product`` ou ``id``
+        de l'élément HTML.
+ 
+        :param card: Le sélecteur Scrapy pointant sur la carte produit.
+        :param category: Nom de la catégorie parente du produit.
+        :param id_cat: Identifiant de la catégorie parente.
+        :param response: La réponse HTTP de la page de listing (utilisée pour
+            résoudre les URLs relatives).
+        :return: Un générateur produisant zéro ou un :class:`~webscraper.items.ProductItem`.
+        """
         link = card.css("h2.product-title a, h3.product-title a, h2 a, h3 a")
         product_url = link.css("::attr(href)").get()
         product_name = (
