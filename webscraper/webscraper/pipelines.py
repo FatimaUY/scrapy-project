@@ -70,28 +70,24 @@ class DataCleaningPipeline:
         if not price_str:
             return None
 
-        # Nettoyage pour le format Centrale Brico
         cleaned = str(price_str).strip()
-        
-        # Format "49€27" → "49.27"
+
+     
         cleaned = cleaned.replace("€", ".")
-        
-        # Supprime tout sauf chiffres, virgule et point
-        cleaned = re.sub(r"[^\d,.]", "", cleaned)
-        
-        # Virgule décimale française → point
-        cleaned = cleaned.replace(",", ".")
-        
-        # Supprime doubles points et point final résiduel
-        cleaned = re.sub(r"\.{2,}", ".", cleaned)
-        cleaned = cleaned.rstrip(".")
-        
-        if cleaned:
+
+        cleaned = re.sub(r'[^\d.,]', '', cleaned)
+
+        cleaned = cleaned.replace(',', '.')
+
+        cleaned = re.sub(r'\.{2,}', '.', cleaned)
+        cleaned = cleaned.rstrip('.')
+
+        match = re.search(r'\d+\.?\d*', cleaned)
+        if match:
             try:
-                return float(cleaned)
+                return float(match.group())
             except ValueError:
                 return None
-        
         return None
  
     def clean_url(self, url):
