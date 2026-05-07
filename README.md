@@ -121,26 +121,32 @@ Reads categories from the database and scrapes all products per category.
 
 ## 🗄️ Database Schema
 
+Data is stored in a SQLite database (`scraping_data.db`) with two tables:
+
 ### 📂 categories
 
-- id_cat (PK)
-- name_cat
-- url_cat
-- parent_cat
-- is_page
-- created_at
-- updated_at
+| Column | Type | Description |
+|---|---|---|
+| id_cat | TEXT | Primary key |
+| name_cat | TEXT | Category name |
+| url_cat | TEXT | Category URL |
+| parent_cat | TEXT | Parent category URL |
+| is_page | INTEGER | 1 if leaf category, 0 if parent |
+| created_at | TIMESTAMP | Creation date |
+| updated_at | TIMESTAMP | Last update date |
 
 ### 📦 products
 
-- id_product (PK)
-- name_product
-- price
-- url_product
-- id_cat (FK)
-- category_name
-- created_at
-- updated_at
+| Column | Type | Description |
+|---|---|---|
+| id_product | TEXT | Primary key |
+| name_product | TEXT | Product name |
+| price | REAL | Product price |
+| url_product | TEXT | Product URL |
+| id_cat | TEXT | Foreign key → categories |
+| category_name | TEXT | Category name |
+| created_at | TIMESTAMP | Creation date |
+| updated_at | TIMESTAMP | Last update date |
 
 ---
 
